@@ -1,3 +1,8 @@
+---
+title: The Viewbox
+date: 2020-01-21T21:58:42.320Z
+---
+
 # The Viewbox
 
 > SVG space is like a massive bit of graph paper, stretching for infinity in all directions that you can plot graphic elements on.
