@@ -1,6 +1,6 @@
----
+<!-- ---
 title: Sidebar
----
+--- -->
 <!-- docs/_sidebar.md -->
 
 - [SVG animation workshop](/)
