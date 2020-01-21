@@ -1,3 +1,6 @@
+---
+title: Sidebar
+---
 <!-- ---
 title: Sidebar
 --- -->
