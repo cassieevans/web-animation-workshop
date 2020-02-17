@@ -1,11 +1,21 @@
----
-title: Sidebar
----
 <!-- docs/_sidebar.md -->
 
-- [SVG animation workshop](/)
+- [Welcome](/)
+- [Why animate on the web?](why.md)
 - [Animation principles](animation-principles.md)
 - [SVG groundwork](svg-groundwork.md)
-- [The viewbox](the-viewbox.md)
+- [The viewBox & viewport](the-viewbox.md)
+- [preserveAspectRatio](preserveaspectratio.md)
 - [SVG elements](svg-elements.md)
-- [Test](test.md)
+- [CSS animation](CSSanimation.md)
+- [Issues with CSS animation](issues.md)
+- [Performance](performance.md)
+- [Creating & Sourcing graphics](creating-SVG-graphics.md)
+- [Optimising and structuring](optimising.md)
+- [Animation libraries](animation-libraries.md)
+- [Greensock](gsap.md)
+- [Tweens](tweens.md)
+- [Timelines](timelines.md)
+- [Debugging](debugging.md)
+- [Easing](easing.md)
+- [Staggers](staggers.md)

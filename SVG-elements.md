@@ -1,11 +1,6 @@
 ---
-title: SVG Elements
+title: SVG Elements {docsify-ignore}
 ---
-
-# SVG Elements
-
-> Number garbage.
-> -- <cite>S. Drasner</cite>
 
 ## Resources
 
@@ -17,7 +12,7 @@ title: SVG Elements
 
 [JXNBLK PATHS](https://jxnblk.github.io/paths/)
 
-## Why should I care?
+## Why? {docsify-ignore}
 
 - Optimising
 - Performance
@@ -25,7 +20,7 @@ title: SVG Elements
 - More control over animation
 - Casually typing out SVG code will make you look v smart.
 
-## Basic shapes.
+## Basic shapes. {docsify-ignore}
 
 ```html
 <svg viewBox="0 0 200 200">
@@ -91,7 +86,7 @@ title: SVG Elements
     <rect x="200" y="50" width="100" height="100" rx="20" fill="#dc6fa3"></rect>
 </svg>
 
-## Structural elements.
+## Structural elements. {docsify-ignore}
 
 ```html
 <svg viewBox="0 0 350 200">
@@ -127,7 +122,7 @@ title: SVG Elements
     <use href="#myRect" x="200" stroke="#dc6fa3" fill="#6fdcbf" stroke-width="3"></use>
 </svg>
 
-## Graphics Elements.
+## Graphics Elements. {docsify-ignore}
 
 Paths - Letters are commands. Numbers are co-ordinates.
 
@@ -146,7 +141,7 @@ Paths - Letters are commands. Numbers are co-ordinates.
            Q 10,60 10,30 z"></path>
 </svg>
 
-## Path Manipulation.
+## Path Manipulation. {docsify-ignore}
 
 Manipulating a path using only one control point.
 
@@ -155,7 +150,7 @@ Manipulating a path using only one control point.
   (<a href='https://codepen.io/cassie-codes'>@cassie-codes</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-## Exercise time!
+## Exercise
 
 Fork this codepen and make some shapes and paths.
 

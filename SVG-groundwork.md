@@ -1,8 +1,6 @@
 ---
-title: SVG Groundwork
+title: SVG Groundwork  {docsify-ignore-all}
 ---
-
-# SVG Groundwork
 
 ## What is SVG?
 
@@ -14,11 +12,10 @@ title: SVG Groundwork
 - It can be manipulated with CSS & JS.
 - SVG can be made accessible.
 - Small file size. (if they're made & optimised well)
-- Good for logos, illustrative animation, infographics.
 
 ## Some ways to include an SVG.
 
-##### Just like you would a normal image.
+### Just like you would a normal image.
 
 😊 Responsive and sharp on retina displays
 
@@ -34,7 +31,7 @@ title: SVG Groundwork
 }
 ```
 
-##### Data URI's.
+### Data URI's.
 
 😊 Like Background image but without the additional HTTP request
 
@@ -44,7 +41,7 @@ title: SVG Groundwork
 }
 ```
 
-##### Inline.
+### Inline.
 
 😊 All the benefits, animation, interactivity, accessibility!
 
@@ -60,10 +57,6 @@ title: SVG Groundwork
 
 ## MAGIC!
 
-##### Animation in background images.
+This is an animated background image. 🤯
 
 <div class="magic"></div>
-
-##### And image tags.
-
-<img class="img" src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/756881/download.svg' alt=''>
