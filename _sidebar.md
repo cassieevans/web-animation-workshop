@@ -27,3 +27,4 @@
 - [Timeline features](timeline-features.md)
 - [GSAP tips](gsap-tips.md)
 - [Accessibility](accessibility.md)
+- [The End](the-end.md)
