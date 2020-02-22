@@ -55,9 +55,13 @@ h3 * {
 
 #svg-animation-docs * {
   color: #4d4d84;
-  font-size: 4rem;
+  font-size: 2rem;
 }
-
+@media screen and (min-width: 50em) {
+  #svg-animation-docs * {
+    font-size: 4rem;
+  }
+}
 #astronaut {
   transform-box: fill-box;
   animation: float 8s ease-in-out 5;
