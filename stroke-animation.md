@@ -1,55 +1,84 @@
 ---
-title: Staggers {docsify-ignore}
+title: Stroke animation {docsify-ignore}
 ---
 
 ## Resources and snippets
 
-[Advanced staggers with GSAP](https://codepen.io/GreenSock/pen/vYBRPbO)
+[SVG stroke animation with CSS](https://css-tricks.com/svg-line-animation-works/)
 
-### Staggers with CSS {docsify-ignore}
+[Draw SVG](https://greensock.com/docs/v3/Plugins/DrawSVGPlugin)
+
+### Using CSS {docsify-ignore}
+
+> Hot tip: Instead of calculating the length of the path with path.getTotalLength() you can set the pathLength attribute to 1. This doesn't change what the path looks like. But the underlying maths of the path itself is now based on a value of 1.
+
+```html
+<svg viewBox="0 0 403.44 74.33">
+  <path class="squiggle" pathLength="1" d="M14.2...." />
+</svg>
+```
 
 ```css
-.dot {
-  animation: up 0.7s ease-in-out alternate infinite;
+.squiggle {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: draw 2s linear forwards;
 }
 
-.dot:nth-child(2) {
-  animation-delay: 100ms;
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
 }
-
-.dot:nth-child(3) {
-  animation-delay: 200ms;
-}
-
-.dot:nth-child(4) {
-  animation-delay: 300ms;
-}
-
-.dot:nth-child(5) {
-  animation-delay: 400ms;
-}
-
 ```
 
-### Staggers with GSAP {docsify-ignore}
+### Using GSAP's draw SVG plugin {docsify-ignore}
+
+!> This a bonus plugin for Club GreenSock members. (But it's free on codepen)
+
+```HTML
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin3.min.js'></script>
+```
 
 ```js
-// simple stagger
-gsap.to('circle', {
-  duration: 0.7,
-  y: -50,
-  stagger: 0.2
-})
+// register plugin
+gsap.registerPlugin(DrawSVGPlugin);
 
-// more complex staggers
-gsap.to('circle', {
-  duration: 0.7,
-  y: -50,
-  stagger: {
-    stagger: {
-    grid: [7,15],
-    from: "edges",
-    amount: 1.5
+// simple path tween
+gsap.from(".squiggle", {
+  duration: 2,
+  drawSVG: "0%"
+});
+
+// more control over start and end positions
+gsap.fromTo(
+  ".squiggle",
+  {
+    duration: 2,
+    drawSVG: "10%"
+  },
+  {
+    drawSVG: "80%"
   }
-})
+);
+
+// Not limited to starting out at a single point along the path and animating in one direction only
+gsap.fromTo(
+  ".squiggle",
+  {
+    duration: 1.5,
+    drawSVG: "0 5%"
+  },
+  {
+    drawSVG: "95% 100%"
+  }
+);
 ```
+
+## Exercise
+
+Give stroke animation & staggering a go.
+
+Feel free to use CSS or GSAP.
+
+[starter pen](https://codepen.io/cassie-codes/pen/dec5210fd106e6b66ecc7f47f42e0de4?editors=1010)
