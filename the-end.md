@@ -23,10 +23,10 @@ xx Cassie
       <stop offset="1" stop-color="#ffb53e" stop-opacity="0"></stop>
     </linearGradient>
     <linearGradient id="linear-gradient-2" x1="843.371" x2="1099.009" y1="1569.65" y2="1334.173" xlink:href="#linear-gradient"></linearGradient>
-    <clipPath id="clip-path">
+    <clipPath id="clip-path2">
       <path fill="none" d="M951.528 2122.186c122.4 15.74 245.849 18.095 369.014 22.815 56.469 2.164 111.83-.443 163.962 19.815 48.815 18.968 87.792 57.042 138.161 73.36 39.089 12.664 81.257 12.219 122.082 7.574 172.69-19.648 335.257-115.817 435.634-257.7 91.931-129.948 130.314-296.225 106.235-453.434-14.605-95.353-58.485-184.274-69-280.352-11.12-101.569 27.675-190.119 52.187-286.708a735.658 735.658 0 0022.106-206.585c-1.414-40.008-6.441-81.016-25.369-116.292-51.413-95.823-181.058-113.9-289.266-103.1-133.939 13.367-267.571 54.69-385.407 119.758-93.04 51.375-185.2 126.161-291.976 146.434-120.4 22.859-213.535-59.654-321.9-97.29-243.806-84.68-538.17 81.664-645.653 302.9-132.686 273.114-117.58 719.9 130.773 922.591 135.344 110.457 309.742 162.661 482.937 185.509q2.739.354 5.48.705z"></path>
     </clipPath>
-    <pattern id="New_Pattern_2" width="1246.593" height="1249.456" data-name="New Pattern 2" patternTransform="matrix(2.638 0 0 -2.638 -8869.333 -5277.317)" patternUnits="userSpaceOnUse" viewBox="0 0 1246.593 1249.456">
+    <pattern id="New_Pattern" width="1246.593" height="1249.456" data-name="New Pattern 2" patternTransform="matrix(2.638 0 0 -2.638 -8869.333 -5277.317)" patternUnits="userSpaceOnUse" viewBox="0 0 1246.593 1249.456">
       <rect width="1246.593" height="1249.456" fill="none"></rect>
       <rect width="1246.593" height="1249.456" fill="none"></rect>
       <path fill="#b598c6" fill-rule="evenodd" d="M1218.832 103.225a1.82 1.82 0 11-1.819 1.821 1.82 1.82 0 011.819-1.821z"></path>
@@ -502,9 +502,9 @@ xx Cassie
       <path id="sparkle-4-2" fill="#fff6e7" d="M1018.676 185.907l-8.6-42-41.99-8.6 41.99-8.6 8.6-42 8.6 42 42 8.6-42 8.6z" data-name="sparkle-4"></path>
       <path id="sparkle-7-2" fill="#ff7cca" d="M1230.15 2305.2l-5.034-24.571-24.564-5.031 24.564-5.032 5.034-24.566 5.034 24.571 24.564 5.032-24.564 5.031z" data-name="sparkle-7"></path>
       <path id="sparkle-1-2" fill="#fff6e7" d="M119.789 1434.352l-8.6-42-41.99-8.6 41.99-8.6 8.6-42 8.6 42 42.005 8.6-42 8.6z" data-name="sparkle-1"></path>
-      <g clip-path="url(#clip-path)">
+      <g clip-path="url(#clip-path2)">
         <path id="bg-colour" fill="#4d4d84" d="M-180.389-193.374h2848.618v2843.181H-180.389z"></path>
-        <path id="bg-stars" fill="url(#New_Pattern_2)" d="M-1597.262-185.17h5064.746v2848.92h-5064.746z"></path>
+        <path id="bg-stars" fill="url(#New_Pattern)" d="M-1597.262-185.17h5064.746v2848.92h-5064.746z"></path>
       </g>
     </g>
     <g id="astronaut">
