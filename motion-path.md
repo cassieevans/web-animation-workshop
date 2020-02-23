@@ -63,4 +63,4 @@ Motion path time!
 
 Try to rotate the planets around their orbits.
 
-[starter pen](https://codepen.io/cassie-codes/pen/qBdEvKv?editors=1010)
+[starter pen](https://codepen.io/cassie-codes/pen/ababe430c51aba803a7156931d6ba45f)
