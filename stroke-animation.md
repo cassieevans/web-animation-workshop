@@ -81,4 +81,4 @@ Give stroke animation & staggering a go.
 
 Feel free to use CSS or GSAP.
 
-[starter pen](https://codepen.io/cassie-codes/pen/dec5210fd106e6b66ecc7f47f42e0de4?editors=1010)
+[starter pen](https://codepen.io/svganimationworkshop/pen/poJwdRy?editors=1010)

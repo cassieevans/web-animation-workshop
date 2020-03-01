@@ -14,7 +14,7 @@ Happy animating!
 
 xx Cassie
 
-[Carry on experimenting!](https://codepen.io/cassie-codes/pen/6344cad7d414ad6047fd336fb6714829?editors=1010)
+[Carry on experimenting!](https://codepen.io/svganimationworkshop/pen/LYVLOOB?editors=1010)
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 400 2785.273 2011.748">
   <defs>

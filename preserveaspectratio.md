@@ -158,7 +158,7 @@ We can change the alignment by changing __x/y Mid/Min/Max__
 
 Have a go at changing the values yourself.
 
-<iframe height="400" style="width: 100%;" scrolling="no" title="SVG preserve aspect ratio" src="https://codepen.io/cassie-codes/embed/d5dd8edf77c77bca842277de559fbf81?height=265&theme-id=default&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/cassie-codes/pen/d5dd8edf77c77bca842277de559fbf81'>SVG preserve aspect ratio</a> by Cassie Evans
-  (<a href='https://codepen.io/cassie-codes'>@cassie-codes</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height="400" style="width: 100%;" scrolling="no" title="SVG preserve aspect ratio" src="https://codepen.io/svganimationworkshop/embed/rNVwGJV?height=265&theme-id=default&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/svganimationworkshop/pen/rNVwGJV'>SVG preserve aspect ratio</a> by SVG-workshops
+  (<a href='https://codepen.io/svganimationworkshop'>@svganimationworkshop</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>

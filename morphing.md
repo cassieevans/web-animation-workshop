@@ -36,4 +36,4 @@ gsap.to("#circle", {
 
 Usiong the same pen as last time, find the black hole in your orbit pen and make an explosion using morph svg.
 
-[starter pen](https://codepen.io/cassie-codes/pen/qBdEvKv?editors=1010)
+[starter pen](https://codepen.io/svganimationworkshop/pen/WNvOXEQ)

@@ -28,10 +28,17 @@ A tween is made up of -
 
 ## Properties:
 
-Here's some common properties you can animate, along with their corresponding CSS syntax.
+Here's some common properties & animation commands along with their corresponding CSS syntax.
 
 | GSAP                       | CSS                                 |
 | -------------------------- | ----------------------------------- |
+|                            |                                     |
+| duration: 1                | animation-duration: 1s              |
+| repeat: -1                 | animation-iteration-count: infinite |
+| repeat: 2                  | animation-iteration-count: 2        |
+| delay: 2                   | animation-delay: 2                  |
+| yoyo: true                 | animation-direction: alternate      |
+|                            |                                     |
 | fill: '#008080'            | fill: #008080                       |
 | stroke: '#008080'          | stroke-color: #008080               |
 | opacity: 0.5               | opacity: 0.5                        |
@@ -55,12 +62,6 @@ Here's some common properties you can animate, along with their corresponding CS
 | rotationY: 90              | transform: rotateY(90deg)           |
 | rotationZ: 90              | transform: rotateZ(90deg)           |
 | transformOrigin: '50% 50%' | transform-origin: 50% 50%           |
-|                            |                                     |
-| duration: 1                | animation-duration: 1s              |
-| repeat: -1                 | animation-iteration-count: infinite |
-| repeat: 2                  | animation-iteration-count: 2        |
-| delay: 2                   | animation-delay: 2                  |
-| yoyo: true                 | animation-direction: alternate      |
 
 ## Exercise
 
@@ -69,6 +70,8 @@ Time to animate your SVG!
 Take a look at your animation plan and create the first tween.
 
 You'll need your SVG starter pen from the last exercise.
+
+[Alternately go ahead and use this spaceship SVG](https://codepen.io/svganimationworkshop/pen/wvaerbO?editors=1010)
 
 ## Snippets
 

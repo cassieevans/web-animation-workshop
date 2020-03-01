@@ -47,7 +47,13 @@ title: Masking and Clipping {docsify-ignore}
 
 ### Demo pen {docsify-ignore}
 
-<iframe height="400" style="width: 100%;" scrolling="no" title="Masking &amp; Clipping" src="https://codepen.io/cassie-codes/embed/5d71a87aa211322d29a9802fd370be80?height=265&theme-id=default&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/cassie-codes/pen/5d71a87aa211322d29a9802fd370be80'>Masking &amp; Clipping</a> by Cassie Evans
-  (<a href='https://codepen.io/cassie-codes'>@cassie-codes</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height="400" style="width: 100%;" scrolling="no" title="Masking &amp; Clipping" src="https://codepen.io/svganimationworkshop/embed/jOPwaBW?height=265&theme-id=default&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/svganimationworkshop/pen/jOPwaBW'>Masking &amp; Clipping</a> by SVG-workshops
+  (<a href='https://codepen.io/svganimationworkshop'>@svganimationworkshop</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
+
+## Exercise
+
+Go on [Giphy](https://giphy.com/), find a black and white gif and a textured gif and give masking a go!
+
+[codepen link ](https://codepen.io/cassie-codes/pen/YzzbVOb)

@@ -3,7 +3,8 @@ title: The ViewBox {docsify-ignore}
 ---
 
 ## Resources
-[<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/762606/images/6894144/Screen_Shot_2019-12-15_at_14.19.15.png">](https://wattenberger.com/guide/scaling-svg)
+[Check out this article
+<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/762606/images/6894144/Screen_Shot_2019-12-15_at_14.19.15.png">](https://wattenberger.com/guide/scaling-svg)
 
 
 ## SVG space
@@ -54,4 +55,4 @@ Fork the codepen below. Either set the new coordinate in the viewbox attribute, 
 
 Don't worry about what the GSAP tween is doing, we'll cover that soon enough!
 
-[Open codepen](https://codepen.io/cassie-codes/pen/79a66762d1264bb8b3c0e2a0ab2a773e?editors=1010)
+[Open codepen](https://codepen.io/svganimationworkshop/pen/qBdjPpR?editors=1010)

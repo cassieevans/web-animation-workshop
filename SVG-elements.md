@@ -160,4 +160,4 @@ We'll be animating them next so if you're feeling adventurous, try and make a sc
 
 (bonus points for making use of `<use>` or linear gradients.)
 
-[Open codepen](https://codepen.io/cassie-codes/pen/9726d1bd9e783e61fb31c6d91ef5788b?editors=1010)
+[Open codepen](https://codepen.io/svganimationworkshop/pen/bGdRovO)
