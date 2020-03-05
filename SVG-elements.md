@@ -8,7 +8,7 @@ title: SVG Elements {docsify-ignore}
 
 [SVG Path syntax - CSS tricks](https://css-tricks.com/svg-path-syntax-illustrated-guide/)
 
-[Anthony Dugois​ path editor](https://cdpn.io/anthonydugois/debug/mewdyZ/GnAnbOWQYgPA)
+[Anthony Dugois​ path editor](https://codepen.io/anthonydugois/full/mewdyZ)
 
 [JXNBLK PATHS](https://jxnblk.github.io/paths/)
 
