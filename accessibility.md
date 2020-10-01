@@ -10,8 +10,8 @@ We can add title's and descriptions to our SVG's for screenreader accessibility
 
 ```html
 <svg viewBox="0 0 720 800" aria-labelledby="galaxyTitle galaxyDesc" role="img">
-  <title id="galaxyTitle">Fred</title>
-  <desc id="galaxyDesc">Fred is a sad potato</desc>
+  <title id="galaxyTitle">Spud</title>
+  <desc id="galaxyDesc">Spud is a sad potato</desc>
 </svg>
 ```
 
