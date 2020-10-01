@@ -1,8 +1,13 @@
 <!-- docs/_sidebar.md -->
 
+- [Help!](https://docs.google.com/document/d/16gw_0HPkozLbhV0MdhE-znHq6elyGpfXN5mdimmqUIE/edit)
 - [Welcome](/)
-- [Why animate on the web?](why.md)
-- [Animation principles](animation-principles.md)
-- [SVG groundwork](svg-groundwork.md)
-- [The viewBox & viewport](the-viewbox.md)
-- [preserveAspectRatio](preserveaspectratio.md)
+
+- Intro to SVG
+
+  - [SVG groundwork](svg-groundwork.md)
+  - [Why animate on the web?](why.md)
+  - [The viewBox & viewport](the-viewbox.md)
+  - [preserveAspectRatio](preserveaspectratio.md)
+  - [SVG elements](svg-elements.md)
+  - [Accessibility](accessibility.md)

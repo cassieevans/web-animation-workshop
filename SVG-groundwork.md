@@ -1,7 +1,3 @@
----
-title: SVG Groundwork  {docsify-ignore-all}
----
-
 ## What is SVG?
 
 > SVG is like an alternate universe version of HTML. Focused on graphics instead of documents.
@@ -37,7 +33,7 @@ title: SVG Groundwork  {docsify-ignore-all}
 
 ```css
 .element {
-  background-image: url("data:image/svg+xml,...");
+  background-image: url('data:image/svg+xml,...');
 }
 ```
 

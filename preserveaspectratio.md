@@ -1,15 +1,14 @@
-## PreserveAspectRatio {docsify-ignore-all}
-
 If the viewport and the viewBox don't have the same aspect ratio we need to specify how the the viewBox is positioned inside the viewport. We can do that with preserveAspectRatio
 
 By default, even with the attribute omitted, the viewBox will scale to fit within the viewport, and be centered.
 
-* __xMidYMid__ will center the viewBox within the viewPort
-* __meet__ will scale the viewBox until it **meets** the height and width of our viewPort.
+- **xMidYMid** will center the viewBox within the viewPort
+- **meet** will scale the viewBox until it **meets** the height and width of our viewPort.
 
 ```html
-<svg preserveAspectRatio="xMidYMid meet">
+<svg preserveAspectRatio="xMidYMid meet"></svg>
 ```
+
 <svg class='par' preserveAspectRatio="xMidYMid meet" viewBox="0 0 200 200">
   <title>spaceship</title>
   <g id="spacecraft">
@@ -39,17 +38,18 @@ By default, even with the attribute omitted, the viewBox will scale to fit withi
   </g>
   <path d="M192,8V192H8V8H192m8-8H0V200H200V0Z" fill="#4d4d84"/>
 </svg>
-&nbsp; 
+&nbsp;
 
-&nbsp; 
+&nbsp;
 
 We can also scale up the viewBox and **'slice'** off the excess, like background-size cover in CSS
 
-* **slice** will scale the viewBox to the dimensions of the viewPort and **slice** off the excess.
+- **slice** will scale the viewBox to the dimensions of the viewPort and **slice** off the excess.
 
 ```html
-<svg preserveAspectRatio="xMidYMid slice">
+<svg preserveAspectRatio="xMidYMid slice"></svg>
 ```
+
 <svg class='par' preserveAspectRatio="xMidYMid slice" viewBox="0 0 200 200">
   <title>spaceship</title>
   <g id="spacecraft">
@@ -80,17 +80,18 @@ We can also scale up the viewBox and **'slice'** off the excess, like background
   <path d="M192,8V192H8V8H192m8-8H0V200H200V0Z" fill="#4d4d84"/>
 </svg>
 
-&nbsp; 
+&nbsp;
 
-&nbsp; 
+&nbsp;
 
-We can change the alignment by changing __x/y Mid/Min/Max__
+We can change the alignment by changing **x/y Mid/Min/Max**
 
-* __xMin__ will align the viewBox to the __left__ of the viewport
+- **xMin** will align the viewBox to the **left** of the viewport
 
 ```html
-<svg preserveAspectRatio="xMinYMid meet">
+<svg preserveAspectRatio="xMinYMid meet"></svg>
 ```
+
 <svg class='par' preserveAspectRatio="xMinYMid meet" viewBox="0 0 200 200">
   <title>spaceship</title>
   <g id="spacecraft">
@@ -121,11 +122,12 @@ We can change the alignment by changing __x/y Mid/Min/Max__
   <path d="M192,8V192H8V8H192m8-8H0V200H200V0Z" fill="#4d4d84"/>
 </svg>
 
-* __xMax__ will align the viewBox to the __right__ of the viewport
+- **xMax** will align the viewBox to the **right** of the viewport
 
 ```html
-<svg preserveAspectRatio="xMaxYMid meet">
+<svg preserveAspectRatio="xMaxYMid meet"></svg>
 ```
+
 <svg class='par' preserveAspectRatio="xMaxYMid meet" viewBox="0 0 200 200">
   <title>spaceship</title>
   <g id="spacecraft">
@@ -156,9 +158,9 @@ We can change the alignment by changing __x/y Mid/Min/Max__
   <path d="M192,8V192H8V8H192m8-8H0V200H200V0Z" fill="#4d4d84"/>
 </svg>
 
-Have a go at changing the values yourself.
+Fork the pen and have a go at changing the values yourself.
 
-<iframe height="400" style="width: 100%;" scrolling="no" title="SVG preserve aspect ratio" src="https://codepen.io/svganimationworkshop/embed/rNVwGJV?height=265&theme-id=default&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+<iframe height="400" style="width: 100%;" scrolling="no" title="SVG preserve aspect ratio" src="https://codepen.io/svganimationworkshop/embed/rNVwGJV?height=265&theme-id=default&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/svganimationworkshop/pen/rNVwGJV'>SVG preserve aspect ratio</a> by SVG-workshops
   (<a href='https://codepen.io/svganimationworkshop'>@svganimationworkshop</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>

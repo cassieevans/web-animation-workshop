@@ -1,7 +1,3 @@
----
-title: SVG Elements {docsify-ignore}
----
-
 ## Resources
 
 [MDN Element reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Element)
@@ -141,23 +137,17 @@ Paths - Letters are commands. Numbers are co-ordinates.
            Q 10,60 10,30 z"></path>
 </svg>
 
-## Path Manipulation. {docsify-ignore}
-
-Manipulating a path using only one control point.
-
-<iframe height="400px" style="width: 100%;" scrolling="no" title="Morphing an SVG path" src="https://codepen.io/cassie-codes/embed/LYEpZzx?height=265&theme-id=default&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/cassie-codes/pen/LYEpZzx'>Morphing an SVG path</a> by Cassie Evans
-  (<a href='https://codepen.io/cassie-codes'>@cassie-codes</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
 ## Exercise
 
-Fork this codepen and make some shapes and paths.
+Fork this pen and decorate your potato.
 
-Go ahead and style them with CSS or inline styles.
+The best way to get comfortable with SVG markup is by getting stuck in.
 
-We'll be animating them next so if you're feeling adventurous, try and make a scene or a face.
+_**Ideas**_
 
-(bonus points for making use of `<use>` or linear gradients.)
+- Add and remove opacity="0" to show and hide different SVG elements.
+- Play around with stroke width and fill colors.
+- What happens when you change path coordinates?
+- Can you spot any SVG shapes... or make your own?
 
-[Open codepen](https://codepen.io/svganimationworkshop/pen/bGdRovO)
+[Open codepen](https://codepen.io/svganimationworkshop/pen/WNwBqGG)

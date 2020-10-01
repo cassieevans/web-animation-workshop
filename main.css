@@ -1,4 +1,22 @@
-@import url("https://fonts.googleapis.com/css?family=Paytone+One&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Paytone+One&display=swap');
+
+a[title~='Help!'] {
+  display: block !important;
+  background-color: #f15572;
+  border-radius: 99px;
+  padding: 0.5rem;
+  color: WHITE !important;
+  font-weight: BOLD !important;
+  margin: 0 auto;
+  max-width: 110px;
+  text-align: center;
+  transform: translateX(-6px);
+  line-height: 1;
+}
+
+a[title~='Help!']:hover {
+  text-decoration: none !important;
+}
 
 body {
   font-size: 20px;
@@ -6,7 +24,7 @@ body {
 
 h1,
 h2 {
-  font-family: "Paytone One", sans-serif !important;
+  font-family: 'Paytone One', sans-serif !important;
   font-weight: 900;
   color: #4d4d84 !important;
 }
@@ -84,9 +102,9 @@ h3 * {
   width: 60%;
 }
 
-h2:nth-of-type(1) {
+/* h2:nth-of-type(1) {
   display: none;
-}
+} */
 
 hr:nth-of-type(1) {
   display: none;
