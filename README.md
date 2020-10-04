@@ -17,7 +17,7 @@ If you know the answer to a question you see on there, feel free to answer and h
 
 **A codepen account** We’ll be using codepen for the exercises, so you’ll need a codepen account. If you don’t have one already, you can make one for free [here](https://codepen.io/)
 
-## Optional
+## Optional <!-- {docsify-ignore} -->
 
 **Graphics editing software.** You can get a free trial for Affinity designer [here](https://affinity.serif.com/en-gb/designer/#buy)
 
