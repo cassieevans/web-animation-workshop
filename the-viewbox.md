@@ -1,5 +1,7 @@
 > SVG space is like an infinite bit of graph paper that you can plot graphical elements on. The viewbox determines what area of that graph paper you can see.
 
+![viewport vs viewbox](https://s3.amazonaws.com/media-p.slid.es/uploads/762606/images/6943388/5ad707f2c1abe_viewboxviewport.jpg.d07987b374c7d524e5373efd2057fabe.jpg")
+
 ### viewBox? viewport? What's the difference?
 
 - The viewport is the outer SVG region - (like a browser viewport)
@@ -10,10 +12,7 @@
 
 ## Viewbox Article demo
 
-[Check out the demo at the bottom...
-<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/762606/images/6894144/Screen_Shot_2019-12-15_at_14.19.15.png">](https://wattenberger.com/guide/scaling-svg)
-
-![viewport vs viewbox](https://s3.amazonaws.com/media-p.slid.es/uploads/762606/images/6943388/5ad707f2c1abe_viewboxviewport.jpg.d07987b374c7d524e5373efd2057fabe.jpg")
+[Check out the demo at the bottom...](https://wattenberger.com/guide/scaling-svg)
 
 ### The viewBox
 

@@ -1,7 +1,3 @@
----
-title: Masking and Clipping {docsify-ignore}
----
-
 > Clipping and Masking can both be used to crop or obscure elements in an SVG.
 
 ## Clipping
@@ -20,8 +16,14 @@ title: Masking and Clipping {docsify-ignore}
 ## Resources and snippets
 
 ```html
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<svg>
   <defs>
+    <!-- gradient -->
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="50%" stop-color="black" />
+      <stop offset="100%" stop-color="white" />
+    </linearGradient>
+
     <!-- mask -->
     <mask id="myMask">
       <circle class="mask" cx="50" cy="50" r="30" fill="url(#gradient)" />
@@ -47,13 +49,15 @@ title: Masking and Clipping {docsify-ignore}
 
 ### Demo pen {docsify-ignore}
 
-<iframe height="400" style="width: 100%;" scrolling="no" title="Masking &amp; Clipping" src="https://codepen.io/svganimationworkshop/embed/jOPwaBW?height=265&theme-id=default&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/svganimationworkshop/pen/jOPwaBW'>Masking &amp; Clipping</a> by SVG-workshops
+<iframe height="400" style="width: 100%;" scrolling="no" title="Masking and Clipping" src="https://codepen.io/svganimationworkshop/embed/qBZeMmG?height=265&theme-id=default&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/svganimationworkshop/pen/qBZeMmG'>Masking and Clipping</a> by SVG-workshops
   (<a href='https://codepen.io/svganimationworkshop'>@svganimationworkshop</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 ## Exercise
 
-Go on [Giphy](https://giphy.com/), find a black and white gif and a textured gif and give masking a go!
+[Generate some SVG paths from a google font](https://danmarshall.github.io/google-font-to-svg-path/) of your choice.
 
-[codepen link ](https://codepen.io/cassie-codes/pen/YzzbVOb)
+Choose a [GIF](https://giphy.com/) and play around with clipping!
+
+[codepen link ](https://codepen.io/svganimationworkshop/pen/dyMBdMR)

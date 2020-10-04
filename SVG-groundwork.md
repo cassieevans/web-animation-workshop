@@ -51,7 +51,7 @@
 </svg>
 ```
 
-## MAGIC!
+## MAGIC! {docsify-ignore}
 
 This is an animated background image. 🤯
 

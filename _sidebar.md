@@ -11,3 +11,11 @@
   - [preserveAspectRatio](preserveaspectratio.md)
   - [SVG elements](svg-elements.md)
   - [Accessibility](accessibility.md)
+
+<!-- - Diving deeper
+
+  - [Creating & Sourcing graphics](creating-SVG-graphics.md)
+  - [Optimising and structuring](optimising.md)
+  - [Performance](performance.md)
+  - [Masking and Clipping](masking-clipping.md)
+  - [SVG Filters](filters.md) -->

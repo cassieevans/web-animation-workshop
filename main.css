@@ -2,7 +2,7 @@
 
 a[title~='Help!'] {
   display: block !important;
-  background-color: #f15572;
+  background-color: #ec8598;
   border-radius: 99px;
   padding: 0.5rem;
   color: WHITE !important;
@@ -26,17 +26,18 @@ h1,
 h2 {
   font-family: 'Paytone One', sans-serif !important;
   font-weight: 900;
-  color: #4d4d84 !important;
+  letter-spacing: 1.3px;
+  color: #9f87c8 !important;
 }
 
 h1 *,
 h2 * {
-  color: #4d4d84 !important;
+  color: #9f87c8 !important;
 }
 
 h3 * {
   font-weight: 900;
-  color: #34495d !important;
+  color: #9f87c8 !important;
 }
 
 .markdown-section h1 {
@@ -189,4 +190,10 @@ video:focus {
 .token.boolean,
 .token.number {
   color: #734ad3;
+}
+
+img {
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
 }

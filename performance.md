@@ -1,7 +1,3 @@
----
-title: Performance {docsify-ignore}
----
-
 ## Game break
 
 [Jank Invaders](https://jakearchibald.github.io/jank-invaders/)
