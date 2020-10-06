@@ -197,3 +197,13 @@ img {
   margin: 0 auto;
   display: block;
 }
+
+#hide-flash {
+  animation: show 0.1s forwards 1s;
+}
+
+@keyframes show {
+  to {
+    opacity: 1;
+  }
+}
