@@ -22,7 +22,7 @@ There are four key styles that a browser can animate cheaply:
 }
 ```
 
-### **However...** {docsify-ignore}
+### **However...** <!-- {docsify-ignore} -->
 
 Currently, Chrome won't separate SVG graphics into different GPU layers. So no hardware acceleration. 😢
 
@@ -32,14 +32,14 @@ This means that SVG is inherently less performant than canvas.
 
 [Upvote me!](https://bugs.chromium.org/p/chromium/issues/detail?id=666244)
 
-## Canvas vs SVG {docsify-ignore}
+## Canvas vs SVG <!-- {docsify-ignore} -->
 
 |        | PROS                                                                                                                                                                          | CONS                                                                                       |
 | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | SVG    | Easy to get started<br><br>Easier to register user interactions<br><br>Easier to debug (It has a DOM)<br><br>Can be made accessible<br><br>Can use both CSS and JS to animate | Potentially extensive and complex DOM<br><br>Not performant for a large number of elements |
 | CANVAS | Very Performant<br><br>Animate tons of objects<br><br>Great for games or immersive stuff                                                                                      | Much steeper learning curve<br><br>Breaks to nothing without JS<br><br>Inaccessible        |
 
-## Should we just use canvas then? {docsify-ignore}
+## Should we just use canvas then? <!-- {docsify-ignore} -->
 
 In short, it depends. There's a payoff with SVG for the ease of use, accessibility and interactivity. When using SVG animate mindfully, and to be aware of the limitations.
 

@@ -1,5 +1,5 @@
 ---
-title: Accessibility {docsify-ignore}
+title: Accessibility <!-- {docsify-ignore} -->
 ---
 
 [Accessible SVG's - CSS tricks](https://css-tricks.com/accessible-svgs/)
@@ -46,7 +46,7 @@ We can adjust their experience with the prefers reduced motion media query.
 
 ```js
 const animationIsOk = window.matchMedia(
-  "(prefers-reduced-motion: no-preference)"
+  '(prefers-reduced-motion: no-preference)'
 );
 
 if (animationIsOk) {

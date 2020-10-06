@@ -1,5 +1,5 @@
 ---
-title: Motion Path Animation {docsify-ignore}
+title: Motion Path Animation <!-- {docsify-ignore} -->
 ---
 
 ## Resources and snippets
@@ -16,7 +16,7 @@ title: Motion Path Animation {docsify-ignore}
   transform-box: fill-box;
   offset-anchor: 50% 50%;
   offset-rotate: auto;
-  offset-path: path("M20.2....");
+  offset-path: path('M20.2....');
   animation: move 10s forwards linear;
 }
 

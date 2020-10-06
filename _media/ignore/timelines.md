@@ -1,5 +1,5 @@
 ---
-title: Tweens {docsify-ignore}
+title: Tweens <!-- {docsify-ignore} -->
 ---
 
 ## Resources
@@ -8,15 +8,14 @@ title: Tweens {docsify-ignore}
 
 ## Snippets
 
-``` js
+```js
 // define your timeline
 const tl = gsap.timeline();
 
 // add your tweens to the timeline
-tl.from('#ufo',{ duration: 1, x: -700 })
-tl.from('#beam',{ duration: 1, scaleX: 0 })
+tl.from('#ufo', { duration: 1, x: -700 });
+tl.from('#beam', { duration: 1, scaleX: 0 });
 ```
-
 
 ### A Timeline is a powerful sequencing tool.
 
@@ -26,35 +25,33 @@ When you place tweens in a timeline, tweens have relationships and awareness of 
 
 By default tweens will follow one after another. But we can overlap or delay tweens by using the position parameter.
 
-
-``` js
-tl.from('#ufo',{ duration: 1, x: -700 })
+```js
+tl.from('#ufo', { duration: 1, x: -700 });
 // this tween will start 0.5s before the first tween ends
-tl.from('#beam',{ duration: 1, scaleX: 0 }, "-=0.5")
+tl.from('#beam', { duration: 1, scaleX: 0 }, '-=0.5');
 ```
 
-``` js
-tl.from('#ufo',{ duration: 1, x: -700 })
+```js
+tl.from('#ufo', { duration: 1, x: -700 });
 // this tween will start 2s after the first tween ends
-tl.from('#beam',{ duration: 1, scaleX: 0 }, "+=2")
+tl.from('#beam', { duration: 1, scaleX: 0 }, '+=2');
 ```
 
 You can also position tweens at an absolute time.
 
-``` js
-tl.from('#ufo',{ duration: 1, x: -700 })
-tl.from('#beam',{ duration: 1, scaleX: 0 }, 3)
+```js
+tl.from('#ufo', { duration: 1, x: -700 });
+tl.from('#beam', { duration: 1, scaleX: 0 }, 3);
 ```
 
 Or hang them off a label.
 
-``` js
-tl.addLabel("myLabel", 0.5);
+```js
+tl.addLabel('myLabel', 0.5);
 
-tl.from('#ufo',{ duration: 1, x: -700 })
-tl.from('#beam',{ duration: 1, scaleX: 0 }, "myLabel")
+tl.from('#ufo', { duration: 1, x: -700 });
+tl.from('#beam', { duration: 1, scaleX: 0 }, 'myLabel');
 ```
-
 
 ## Exercise
 

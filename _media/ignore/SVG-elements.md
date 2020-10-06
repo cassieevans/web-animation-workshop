@@ -8,7 +8,7 @@
 
 [JXNBLK PATHS](https://jxnblk.github.io/paths/)
 
-## Why? {docsify-ignore}
+## Why? <!-- {docsify-ignore} -->
 
 - Optimising
 - Performance
@@ -16,7 +16,7 @@
 - More control over animation
 - Casually typing out SVG code will make you look v smart.
 
-## Basic shapes. {docsify-ignore}
+## Basic shapes. <!-- {docsify-ignore} -->
 
 ```html
 <svg viewBox="0 0 200 200">
@@ -82,7 +82,7 @@
     <rect x="200" y="50" width="100" height="100" rx="20" fill="#dc6fa3"></rect>
 </svg>
 
-## Structural elements. {docsify-ignore}
+## Structural elements. <!-- {docsify-ignore} -->
 
 ```html
 <svg viewBox="0 0 350 200">
@@ -118,7 +118,7 @@
     <use href="#myRect" x="200" stroke="#dc6fa3" fill="#6fdcbf" stroke-width="3"></use>
 </svg>
 
-## Graphics Elements. {docsify-ignore}
+## Graphics Elements. <!-- {docsify-ignore} -->
 
 Paths - Letters are commands. Numbers are co-ordinates.
 

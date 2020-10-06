@@ -1,5 +1,5 @@
 ---
-title: Stroke animation {docsify-ignore}
+title: Stroke animation <!-- {docsify-ignore} -->
 ---
 
 ## Resources and snippets
@@ -8,7 +8,7 @@ title: Stroke animation {docsify-ignore}
 
 [Draw SVG](https://greensock.com/docs/v3/Plugins/DrawSVGPlugin)
 
-### Using CSS {docsify-ignore}
+### Using CSS <!-- {docsify-ignore} -->
 
 > Hot tip: Instead of calculating the length of the path with path.getTotalLength() you can set the pathLength attribute to 1. This doesn't change what the path looks like. But the underlying maths of the path itself is now based on a value of 1.
 
@@ -32,7 +32,7 @@ title: Stroke animation {docsify-ignore}
 }
 ```
 
-### Using GSAP's draw SVG plugin {docsify-ignore}
+### Using GSAP's draw SVG plugin <!-- {docsify-ignore} -->
 
 !> This a bonus plugin for Club GreenSock members. (But it's free on codepen)
 
@@ -45,32 +45,32 @@ title: Stroke animation {docsify-ignore}
 gsap.registerPlugin(DrawSVGPlugin);
 
 // simple path tween
-gsap.from(".squiggle", {
+gsap.from('.squiggle', {
   duration: 2,
-  drawSVG: "0%"
+  drawSVG: '0%',
 });
 
 // more control over start and end positions
 gsap.fromTo(
-  ".squiggle",
+  '.squiggle',
   {
     duration: 2,
-    drawSVG: "10%"
+    drawSVG: '10%',
   },
   {
-    drawSVG: "80%"
+    drawSVG: '80%',
   }
 );
 
 // Not limited to starting out at a single point along the path and animating in one direction only
 gsap.fromTo(
-  ".squiggle",
+  '.squiggle',
   {
     duration: 1.5,
-    drawSVG: "0 5%"
+    drawSVG: '0 5%',
   },
   {
-    drawSVG: "95% 100%"
+    drawSVG: '95% 100%',
   }
 );
 ```

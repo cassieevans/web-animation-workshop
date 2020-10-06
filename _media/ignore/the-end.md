@@ -1,5 +1,5 @@
 ---
-title: The End {docsify-ignore}
+title: The End <!-- {docsify-ignore} -->
 ---
 
 If there's still time left, have a play with everything you've learnt.

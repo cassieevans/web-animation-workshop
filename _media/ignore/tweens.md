@@ -1,12 +1,12 @@
 ---
-title: Tweens {docsify-ignore}
+title: Tweens <!-- {docsify-ignore} -->
 ---
 
 ## Resources
 
 [Tweens - GSAP docs](https://greensock.com/docs/v3/GSAP/Tween)
 
-## What's a tween? {docsify-ignore}
+## What's a tween? <!-- {docsify-ignore} -->
 
 > A Tween does all the animation work - think of it like a high-performance property setter.
 
@@ -77,11 +77,11 @@ You'll need your SVG starter pen from the last exercise.
 
 ```js
 // Good for exits
-gsap.to("#ufo", { duration: 1, x: -700 });
+gsap.to('#ufo', { duration: 1, x: -700 });
 
 // Good for entrances
-gsap.from("#ufo", { duration: 1, x: -700 });
+gsap.from('#ufo', { duration: 1, x: -700 });
 
 // Good for more control
-gsap.fromTo("#ufo", { x: -700 }, { x: 700, duration: 2 });
+gsap.fromTo('#ufo', { x: -700 }, { x: 700, duration: 2 });
 ```

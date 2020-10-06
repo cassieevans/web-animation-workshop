@@ -1,12 +1,12 @@
 ---
-title: Staggers {docsify-ignore}
+title: Staggers <!-- {docsify-ignore} -->
 ---
 
 ## Resources and snippets
 
 [Advanced staggers with GSAP](https://codepen.io/GreenSock/pen/vYBRPbO)
 
-### Staggers with CSS {docsify-ignore}
+### Staggers with CSS <!-- {docsify-ignore} -->
 
 ```css
 .dot {
@@ -28,10 +28,9 @@ title: Staggers {docsify-ignore}
 .dot:nth-child(5) {
   animation-delay: 400ms;
 }
-
 ```
 
-### Staggers with GSAP {docsify-ignore}
+### Staggers with GSAP <!-- {docsify-ignore} -->
 
 ```js
 // simple stagger

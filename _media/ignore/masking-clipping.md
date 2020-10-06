@@ -47,7 +47,7 @@
 
 [Masking vs. Clipping: When to Use Each](https://css-tricks.com/masking-vs-clipping-use/)
 
-### Demo pen {docsify-ignore}
+### Demo pen <!-- {docsify-ignore} -->
 
 <iframe height="400" style="width: 100%;" scrolling="no" title="Masking and Clipping" src="https://codepen.io/svganimationworkshop/embed/qBZeMmG?height=265&theme-id=default&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/svganimationworkshop/pen/qBZeMmG'>Masking and Clipping</a> by SVG-workshops

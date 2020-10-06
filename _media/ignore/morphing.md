@@ -1,5 +1,5 @@
 ---
-title: Morphing {docsify-ignore}
+title: Morphing <!-- {docsify-ignore} -->
 ---
 
 ## Resources and snippets
@@ -24,11 +24,11 @@ Remember to hide the destination shape with opacity. Because we're just using th
 ```js
 gsap.registerPlugin(MorphSVGPlugin);
 
-gsap.to("#circle", {
+gsap.to('#circle', {
   duration: 2,
   morphSVG: {
-    shape: "#hippo"
-  }
+    shape: '#hippo',
+  },
 });
 ```
 

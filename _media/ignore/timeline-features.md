@@ -1,5 +1,5 @@
 ---
-title: Timeline features {docsify-ignore}
+title: Timeline features <!-- {docsify-ignore} -->
 ---
 
 [GSAP timelines - docs ](https://greensock.com/docs/v3/GSAP/Timeline)
@@ -40,12 +40,12 @@ const tl = gsap.timeline({ repeat: 3, yoyo: true });
 You can also pass in 'defaults' in order for the child tweens to inherit the settings from the timeline.
 
 ```js
-const tl = gsap.timeline((defaults: { duration: 1, ease: "elastic" }));
+const tl = gsap.timeline((defaults: { duration: 1, ease: 'elastic' }));
 
 // these tweens will all have a duration of 1 and an elastic ease
-tl.to(".tween1", { rotation: -270 })
-  .to(".tween2", { rotation: -360 })
-  .to(".tween3", { rotation: -180 });
+tl.to('.tween1', { rotation: -270 })
+  .to('.tween2', { rotation: -360 })
+  .to('.tween3', { rotation: -180 });
 ```
 
 ## Callbacks
@@ -55,7 +55,7 @@ You can fire callbacks, and pass in parameters to those callbacks.
 ```js
 const tl = gsap.timeline({
   onComplete: logMessage,
-  onCompleteParams: ["banana"]
+  onCompleteParams: ['banana'],
 });
 
 function logMessage(message) {
@@ -68,10 +68,10 @@ or fire off functions from your animation code
 ```js
 const tl = gsap.timeline();
 
-tl.to(".tween1", { rotation: -270 })
-  .to(".tween2", { rotation: -360 })
-  .call(logMessage, ["banana"], "<0.5")
-  .to(".tween3", { rotation: -180 });
+tl.to('.tween1', { rotation: -270 })
+  .to('.tween2', { rotation: -360 })
+  .call(logMessage, ['banana'], '<0.5')
+  .to('.tween3', { rotation: -180 });
 
 function logMessage(message) {
   console.log(message);
@@ -103,8 +103,5 @@ function end() {
 
 // stitch them together in a master timeline...
 const master = gsap.timeline();
-master
-  .add(intro())
-  .add(middle(), "+=2")
-  .add(end(), "-=1");
+master.add(intro()).add(middle(), '+=2').add(end(), '-=1');
 ```

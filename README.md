@@ -20,7 +20,7 @@ If you know the answer to a question you see on there, feel free to answer and h
 
 **A modern browser, I recommend Chrome or firefox.**
 
-**A codepen account** We’ll be using codepen for the exercises, so you’ll need a codepen account. If you don’t have one already, you can make one for free [here](https://codepen.io/)
+**A codepen account** We’ll be using codepen for the exercises. If you don’t have one already, you can make one for free [here](https://codepen.io/)
 
 ## Optional
 

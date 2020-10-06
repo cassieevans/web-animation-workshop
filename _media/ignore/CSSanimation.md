@@ -1,5 +1,5 @@
 ---
-title: CSS animation {docsify-ignore}
+title: CSS animation <!-- {docsify-ignore} -->
 ---
 
 ### Animation properties

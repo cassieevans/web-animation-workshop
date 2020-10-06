@@ -1,12 +1,12 @@
 ---
-title: Debugging {docsify-ignore}
+title: Debugging <!-- {docsify-ignore} -->
 ---
 
 Easing is one of the most important things in motion design. It's the best way to breathe life and personality into an animation.
 
 ## Resources and snippets
 
-### Easing with CSS {docsify-ignore}
+### Easing with CSS <!-- {docsify-ignore} -->
 
 With CSS, we're limited to two bezier handles for customisation of our easing curves.
 
@@ -16,7 +16,7 @@ You can also tweak easing right in chrome dev tools!
 
 ![easing in chrome dev tools](_media/ease.png)
 
-### Easing with GSAP {docsify-ignore}
+### Easing with GSAP <!-- {docsify-ignore} -->
 
 Greensock uses SVG path syntax for easing curves so we get a lot more flexibility.
 We can create more complex effects like bouncing, elastic eases, wiggles, or jerky eases.
@@ -33,7 +33,7 @@ Here are some GSAP eases with their corresponding CSS syntax
 Check out the ease visualizer for more interesting easing equations:
 [GSAP ease visualizer](https://greensock.com/docs/v3/Eases)
 
-### Extra eases with easepack {docsify-ignore}
+### Extra eases with easepack <!-- {docsify-ignore} -->
 
 These eases aren't included in the core and need to be loaded in seperately with easepack. This is a free plugin.
 
