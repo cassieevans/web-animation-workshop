@@ -3,7 +3,7 @@
 - [Help!](https://docs.google.com/document/d/19nm5ukOJJTYtWfnEHA4K5ukCkHHygJZQYsljo28HwHE/edit)
 - [Welcome!](/)
 
-- Intro to SVG -->
+- 💜 Intro to SVG
 
   - [SVG groundwork](svg-groundwork.md)
   - [Why animate on the web?](why.md)
