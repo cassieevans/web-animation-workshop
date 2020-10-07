@@ -18,7 +18,7 @@ We can add title's and descriptions to our SVG's for screenreader accessibility
 For infographics you can make the SVG DOM traversable by using role="group"
 
 ```
-<svg viewBox="0 0 720 800" aria-labelledby="graphtitle graphDesc" role="group">
+<svg viewBox="0 0 720 800" aria-labelledby="graphTitle graphDesc" role="group">
   <title id="graphTitle">Infographic</title>
   <desc id="graphDesc">An important infographic.</desc>
   <g id="chart" role="list">
