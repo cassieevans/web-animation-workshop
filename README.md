@@ -22,9 +22,13 @@ If you know the answer to a question you see on there, feel free to answer and h
 
 **A codepen account** We’ll be using codepen for the exercises. If you don’t have one already, you can make one for free [here](https://codepen.io/)
 
-## Optional
+## Optional <!-- {docsify-ignore} -->
 
 **Graphics editing software.** I use Illustrator, but I know the pricing on adobe software is a _bit much_ for some folks. Affinity designer is a brilliant alternative. - You can get a free trial [here](https://affinity.serif.com/en-gb/designer/#buy)
+
+## Follow along <!-- {docsify-ignore} -->
+
+Animation looks pretty crummy over Zoom, so if you'd like you can follow along with my slides [here](https://slides.com/cassiecodes/deck-6ca315/live?token=BaVNfTdi)
 
 ## Sharing <!-- {docsify-ignore} -->
 
