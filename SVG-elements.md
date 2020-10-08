@@ -137,6 +137,10 @@ Paths - Letters are commands. Numbers are co-ordinates.
            Q 10,60 10,30 z"></path>
 </svg>
 
+## Relative - Absolute path converter
+
+[Open codepen](https://codepen.io/leaverou/pen/RmwzKv?editors=1010)
+
 ## Exercise
 
 Fork this pen and decorate your potato.
