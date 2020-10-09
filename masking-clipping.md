@@ -60,4 +60,10 @@
 
 Choose a [GIF](https://giphy.com/) and play around with clipping!
 
-[codepen link ](https://codepen.io/svganimationworkshop/pen/dyMBdMR)
+[codepen link](https://codepen.io/svganimationworkshop/pen/dyMBdMR)
+
+** alternative / bonus exercise **
+
+Play with some SVG-masking collage in this pen
+
+[codepen link](https://codepen.io/svganimationworkshop/pen/QWEwxbv)

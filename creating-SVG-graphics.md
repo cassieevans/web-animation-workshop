@@ -14,4 +14,5 @@ You don't have to be great at drawing to get started with SVG animation. Practic
 ## Optional homework
 
 On day 3 and 4 we'll be getting into animation!
-I'll provide an SVG, but if you'd like to create or source your own, go for it!
+
+I'll provide an SVG, but if you'd like to bring your critter, or create/source your own SVG - go for it!

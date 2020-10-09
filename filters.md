@@ -45,3 +45,11 @@ Filter applied with CSS
   See the Pen <a href='https://codepen.io/svganimationworkshop/pen/jOqgewd'>Displacement</a> by SVG-workshops
   (<a href='https://codepen.io/svganimationworkshop'>@svganimationworkshop</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
+
+## Exercise
+
+Play around with the morphology filter to distort an image in this pen!
+
+If you feel adventurous, swop out this filter for other from the docs, have a play!
+
+[codepen link](https://codepen.io/svganimationworkshop/pen/abZzGga)
