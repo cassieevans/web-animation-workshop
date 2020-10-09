@@ -32,7 +32,7 @@ Animation looks pretty crummy over Zoom, so if you'd like you can follow along w
 
 ## Sharing <!-- {docsify-ignore} -->
 
-I **love** to see what people have been making, so make sure to tag your codepens (settings > tags) with **_svgworkshop._**
+I **love** to see what people have been making, so make sure to tag your codepens (settings > tags) with **_svgworkshops._**
 
 If you share your codepens on twitter make sure to @ me [@cassiecodes](https://twitter.com/cassiecodes)
 
