@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-- [Help!](https://docs.google.com/document/d/19nm5ukOJJTYtWfnEHA4K5ukCkHHygJZQYsljo28HwHE/edit)
+- [Help!](https://docs.google.com/document/d/19SPorTPGtjxEBL4g11qkKSVALSyfNJn9kjh_XLim3CE/edit)
 - [Welcome!](/)
 
 - 💜 Intro to SVG
