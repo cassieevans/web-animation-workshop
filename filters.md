@@ -8,6 +8,10 @@ This 'chaining' allows for infinite types of effects.
 
 ## Resources
 
+[MDN web docs](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/filter)
+
+[SVG filters 101](https://tympanus.net/codrops/2019/01/15/svg-filters-101/)
+
 [The Gooey effect](https://css-tricks.com/gooey-effect/)
 
 [Squigglevision](https://css-tricks.com/squigglevision-in-css-and-svg/)
