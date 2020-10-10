@@ -26,9 +26,9 @@ If you know the answer to a question you see on there, feel free to answer and h
 
 **Graphics editing software.** I use Illustrator, but I know the pricing on adobe software is a _bit much_ for some folks. Affinity designer is a brilliant alternative. - You can get a free trial [here](https://affinity.serif.com/en-gb/designer/#buy)
 
-## Follow along <!-- {docsify-ignore} -->
+<!-- ## Follow along {docsify-ignore} -->
 
-Animation looks pretty crummy over Zoom, so if you'd like you can follow along with my slides [here](https://slides.com/cassiecodes/deck-6ca315/live?token=BaVNfTdi)
+<!-- Animation looks pretty crummy over Zoom, so if you'd like you can follow along with my slides [here](https://slides.com/cassiecodes/deck-6ca315/live?token=BaVNfTdi) -->
 
 ## Sharing <!-- {docsify-ignore} -->
 
