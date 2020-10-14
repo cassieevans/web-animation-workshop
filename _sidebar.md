@@ -19,3 +19,6 @@
   - [Performance](performance.md)
   - [Masking and Clipping](masking-clipping.md)
   - [SVG Filters](filters.md)
+
+- 🥳 Intro to animation
+  - [Animation principles](animation-principles.md)
