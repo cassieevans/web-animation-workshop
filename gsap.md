@@ -1,6 +1,3 @@
----
-title: GSAP <!-- {docsify-ignore} -->
----
 
 ## Resources
 
@@ -10,7 +7,7 @@ The Greensock docs and forums are brilliant.
 
 [GSAP 3 docs ](https://greensock.com/docs/)
 
-[Forums, ](https://greensock.com/forums/) Like stack overflow, but the people aren't horrid.
+[Forums](https://greensock.com/forums/) — Like stack overflow, but the people aren't horrid.
 
 ## Why Greensock? <!-- {docsify-ignore} -->
 
@@ -32,15 +29,19 @@ They also go above and beyond to fix bugs and edge cases. Safari has had a bug s
 - Great browser support - IE9+
 - Not just for SVG, use GSAP for DOM, canvas, three.js (anything with numbers)
 
-## [GSAP Licensing model](https://greensock.com/standard-license/) <!-- {docsify-ignore} -->
+### [GSAP Licensing model](https://greensock.com/standard-license/) <!-- {docsify-ignore} -->
 
-- The Core GSAP library is free to use as long as end users don't pay a fee to use your product or gain access to any part of it.
-
+- The Core GSAP library is free for the majority of use cases.
 - Some of the fun bonus plugins are behind a [membership fee](https://greensock.com/club/).
+- Everything is available to experiment with on codepen!
 
-- But everything is available to experiment with on codepen!
+## Codepen plugin links
 
 <iframe height="400" style="width: 100%;" scrolling="no" title="Try Club GreenSock Bonus Plugins FREE on Codepen" src="https://codepen.io/GreenSock/embed/OPqpRJ?height=265&theme-id=default&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/GreenSock/pen/OPqpRJ'>Try Club GreenSock Bonus Plugins FREE on Codepen</a> by GreenSock
   (<a href='https://codepen.io/GreenSock'>@GreenSock</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
+
+## Installation helper
+
+[this is a very helpful resource for getting GSAP to work outside of codepen](https://greensock.com/docs/v3/Installation)

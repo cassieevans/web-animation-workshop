@@ -22,3 +22,10 @@
 
 - 🥳 Intro to animation
   - [Animation principles](animation-principles.md)
+  - [CSS animation](CSSanimation.md)
+  - [CSS speedbumps](issues.md)
+  - [Animation libraries](animation-libraries.md)
+  - [Greensock](gsap.md)
+  - [Tweens](tweens.md)
+  - [Easing](easing.md)
+  - [GSAP ease visualizer](https://greensock.com/docs/v3/Eases)

@@ -211,3 +211,7 @@ img {
     opacity: 1;
   }
 }
+
+.token.cdata, .token.comment, .token.doctype, .token.prolog {
+  color: #c3c3c3;
+}
