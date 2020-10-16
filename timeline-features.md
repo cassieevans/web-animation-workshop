@@ -1,7 +1,3 @@
----
-title: Timeline features <!-- {docsify-ignore} -->
----
-
 [GSAP timelines - docs ](https://greensock.com/docs/v3/GSAP/Timeline)
 
 ## Timeline methods
@@ -15,7 +11,7 @@ timeline.seek(1.5)
 timeline.reverse()
 timeline.timeScale(0.5)
 
-Slow timeline down to half speed and play it in reverse.
+// Slow timeline down to half speed and play it in reverse.
 timeline.timeScale(0.5).reverse()
 ```
 
@@ -34,6 +30,7 @@ const tl = gsap.timeline({ repeat: 3, yoyo: true });
 | repeat      | number / -1 (infinite) |
 | repeatDelay | number                 |
 | yoyo        | boolean                |
+| timeScale   | number                 |
 
 ## Defaults
 
@@ -78,18 +75,33 @@ function logMessage(message) {
 }
 ```
 
+Here's an audio library and some sounds if you want a play!
+
+```
+https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.0/howler.min.js
+
+```
+```js
+var sound = new Howl({
+  src: ['https://assets.codepen.io/756881/TFTank-Drive.wav']
+});
+
+sound.play()
+
+// https://assets.codepen.io/756881/Potato.wav
+// https://assets.codepen.io/756881/SciFiAmbience_S08SF.89_01.wav
+// https://assets.codepen.io/756881/RubberBandSnap_S08FO.2219.wav
+// https://assets.codepen.io/756881/SciFiRobotWalk_S08SF.435.wav
+// https://assets.codepen.io/756881/SciFiLaser_S08SF.346_01.wav
+// https://assets.codepen.io/756881/EspressoBubbles_S08HS.482.wav
+```
+
 ## Nesting timelines
 
 Nest timelines within timelines as deeply as you want. This lets you modularize your code and make it more maintainable
 
 ```js
 function intro() {
-  const tl = gsap.timeline();
-  //...add animations here...
-  return tl;
-}
-
-function middle() {
   const tl = gsap.timeline();
   //...add animations here...
   return tl;
@@ -103,5 +115,6 @@ function end() {
 
 // stitch them together in a master timeline...
 const master = gsap.timeline();
-master.add(intro()).add(middle(), '+=2').add(end(), '-=1');
+master.add(intro())
+master.add(middle(), '+=2')
 ```

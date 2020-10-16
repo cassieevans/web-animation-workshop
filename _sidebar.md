@@ -29,3 +29,9 @@
   - [Tweens](tweens.md)
   - [Easing](easing.md)
   - [GSAP ease visualizer](https://greensock.com/docs/v3/Eases)
+
+- 💚 Deeper into animation
+ - [Staggers](staggers.md)
+ - [Timelines](timelines.md)
+ - [Debugging](debugging.md)
+ - [Timeline features](timeline-features.md)

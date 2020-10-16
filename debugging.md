@@ -1,12 +1,8 @@
----
-title: Debugging <!-- {docsify-ignore} -->
----
-
 ## Resources
 
 [ScrubGSAPTimeline - Chris Gannon](https://github.com/chrisgannon/ScrubGSAPTimeline)
 
-## Quick and easy way <!-- {docsify-ignore} -->
+## Quick and dirty way <!-- {docsify-ignore} -->
 
 Use the timeline methods to seek out a part of your timeline, slow down the playback and then play
 
