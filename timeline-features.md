@@ -37,7 +37,7 @@ const tl = gsap.timeline({ repeat: 3, yoyo: true });
 You can also pass in 'defaults' in order for the child tweens to inherit the settings from the timeline.
 
 ```js
-const tl = gsap.timeline((defaults: { duration: 1, ease: 'elastic' }));
+const tl = gsap.timeline({defaults: { duration: 1, ease: 'elastic' }});
 
 // these tweens will all have a duration of 1 and an elastic ease
 tl.to('.tween1', { rotation: -270 })
