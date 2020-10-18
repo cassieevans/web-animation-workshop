@@ -1,6 +1,6 @@
 [GSAP timelines - docs ](https://greensock.com/docs/v3/GSAP/Timeline)
 
-## Timeline methods
+## Control methods
 
 Timelines have methods for more finite control.
 

@@ -53,3 +53,33 @@ In short, it depends. There's a payoff with SVG for the ease of use, accessibili
 - Use scaling transformations rather than changing the underlying geometry.
 - Clipping is usually more efficient than masking.
 - Avoid any changes that require a filter to be recalculated.
+
+## Killing animations offscreen
+
+Example using the [Intersection observer API.](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
+
+```js
+function killOrPlay(entry) {
+ if (entry.isIntersecting) {
+  tl.resume()
+  } else {
+  tl.pause()
+ }
+}
+
+let callback = function (entries, observer) {
+ entries.forEach(entry => {
+  killOrPlay(entry);
+ });
+};
+
+let observer = new IntersectionObserver(callback);
+let target = document.querySelector("svg");
+
+observer.observe(target);
+```
+
+<iframe height="500" style="width: 100%;" scrolling="no" title="Spaceship - Intersection Observer - simple" src="https://codepen.io/svganimationworkshop/embed/MWeeeNB?height=265&theme-id=light&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/svganimationworkshop/pen/MWeeeNB'>Spaceship - Intersection Observer - simple</a> by SVG-workshops
+  (<a href='https://codepen.io/svganimationworkshop'>@svganimationworkshop</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>

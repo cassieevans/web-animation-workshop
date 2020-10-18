@@ -35,3 +35,12 @@
  - [Timelines](timelines.md)
  - [Debugging](debugging.md)
  - [Timeline features](timeline-features.md)
+
+- 💚 Wrapping up
+  - [Interactivity](interactivity.md)
+  - [GSAP tips](gsap-tips.md)
+  - [Stroke animation](stroke-animation.md)
+  - [Motion Paths](motion-path.md)
+  - [Morphing](morphing.md)
+  - [Prefers reduced motion](prefersreducedmotion.md)
+  - [The End](the-end.md)

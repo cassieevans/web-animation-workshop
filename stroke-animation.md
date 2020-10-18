@@ -1,8 +1,6 @@
----
-title: Stroke animation <!-- {docsify-ignore} -->
----
 
-## Resources and snippets
+SVG line animation is a really visually pleasing technique, and, luckily, it's also quite an accessible technique to grasp!
+### Resources
 
 [SVG stroke animation with CSS](https://css-tricks.com/svg-line-animation-works/)
 
@@ -10,10 +8,10 @@ title: Stroke animation <!-- {docsify-ignore} -->
 
 ### Using CSS <!-- {docsify-ignore} -->
 
-> Hot tip: Instead of calculating the length of the path with path.getTotalLength() you can set the pathLength attribute to 1. This doesn't change what the path looks like. But the underlying maths of the path itself is now based on a value of 1.
+> Instead of calculating the length of the path with path.getTotalLength() you can set the pathLength attribute to 1. This doesn't change what the path looks like. But the underlying maths of the path itself is now based on a value of 1.
 
 ```html
-<svg viewBox="0 0 403.44 74.33">
+<svg viewBox="0 0 100 100">
   <path class="squiggle" pathLength="1" d="M14.2...." />
 </svg>
 ```
@@ -62,7 +60,7 @@ gsap.fromTo(
   }
 );
 
-// Not limited to starting out at a single point along the path and animating in one direction only
+// move a small part of the line along the path
 gsap.fromTo(
   '.squiggle',
   {
@@ -73,6 +71,26 @@ gsap.fromTo(
     drawSVG: '95% 100%',
   }
 );
+
+// draw line in and then out again
+ gsap.set(".squiggle", {
+   drawSVG:"0%",
+ }
+
+ gsap.to(".squiggle", {
+   duration: 7, 
+   keyframes: [
+     {
+       drawSVG: "0% 0%"
+     },
+     {
+       drawSVG: "0% 100%"
+     },
+     {
+       drawSVG: "100% 100%"
+     }
+   ]
+ })
 ```
 
 ## Exercise
@@ -81,4 +99,4 @@ Give stroke animation & staggering a go.
 
 Feel free to use CSS or GSAP.
 
-[starter pen](https://codepen.io/svganimationworkshop/pen/poJwdRy?editors=1010)
+[starter pen](https://codepen.io/svganimationworkshop/pen/yLJJYNM)
