@@ -1,4 +1,3 @@
-
 Thanks for coming along on this SVG journey with me!
 
 I hope you had fun! If you have any questions, pop me a message anytime.
@@ -15,5 +14,4 @@ xx Cassie
 
 [Here's some collections from the workshop](https://codepen.io/svganimationworkshop/collections/)
 
-And my slides are here -
-<iframe src="https://slides.com/cassiecodes/deck-6ca315/embed?token=BaVNfTdi&style=hidden" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+And my slides are [here](https://slides.com/cassiecodes/deck-6ca315/fullscreen?token=BaVNfTdi)
