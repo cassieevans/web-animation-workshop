@@ -4,9 +4,9 @@
 
 (Flash of unstyled content)
 
-set() is essentially a zero-duration to() tween. 
+set() is essentially a zero-duration to() tween.
 
-[View set() GSAP docs](https://greensock.com/docs/v3/GSAP/gsap.set())
+[View set() GSAP docs](<https://greensock.com/docs/v3/GSAP/gsap.set()>)
 
 We can use it to set initial states for our tweens.
 
@@ -47,68 +47,65 @@ Keyframes are great if you're changing values of the same element in succession.
 A common use case is to quickly show an element, do something to it, and then hide it again.
 
 ```js
-
-gsap.to(".ufo", {
+gsap.to('.ufo', {
   keyframes: [
     { opacity: 1, duration: 0.01 },
     { rotation: -360, duration: 1 },
-    { opacity: 0, duration: 0.01 }
-  ]
+    { opacity: 0, duration: 0.01 },
+  ],
 });
-
 ```
 
 ## registerEffect
 
-[View registerEffect() GSAP docs](https://greensock.com/docs/v3/GSAP/gsap.registerEffect())
+[View registerEffect() GSAP docs](<https://greensock.com/docs/v3/GSAP/gsap.registerEffect()>)
 
 ```js
-
 // register the effect with GSAP:
 gsap.registerEffect({
- name: "spin",
- defaults: {duration: 1, rotate: 360}, //defaults get applied to the "config" object
- effect: (targets, config) => {
-  return gsap.to(targets, {
-   duration: config.duration, 
-   rotate: config.rotate, 
-   ease: "power2.inOut",
-   transformOrigin: 'center'
-  });
- }
+  name: 'spin',
+  defaults: { duration: 1, rotate: 360 }, //defaults get applied to the "config" object
+  effect: (targets, config) => {
+    return gsap.to(targets, {
+      duration: config.duration,
+      rotate: config.rotate,
+      ease: 'power2.inOut',
+      transformOrigin: 'center',
+    });
+  },
 });
 
 // now we can use it like this:
-gsap.effects.spin("#ufo");
+gsap.effects.spin('#ufo');
 
 // Or override the defaults:
-gsap.effects.spin("#ufo", { rotate: 90 });
-
+gsap.effects.spin('#ufo', { rotate: 90 });
 ```
 
 ## quickSetter() & gsap.ticker
-[View quickSetter() GSAP docs](https://greensock.com/docs/v3/GSAP/gsap.quickSetter())
+
+[View quickSetter() GSAP docs](<https://greensock.com/docs/v3/GSAP/gsap.quickSetter()>)
 
 [View gsap.ticker GSAP docs](https://greensock.com/docs/v3/GSAP/gsap.ticker)
+
+quickSetter is a restricted form of .set() that’s more performant, it's especially useful for things that run every tick - like mouse reactive animation.
 
 ```js
 //reduced example code
 
-var xSet = gsap.quickSetter('#ufo', "x", "px");
-var ySet = gsap.quickSetter('#ufo', "y", "px");
+var xSet = gsap.quickSetter('#ufo', 'x', 'px');
+var ySet = gsap.quickSetter('#ufo', 'y', 'px');
 
-window.addEventListener("mousemove", e => {    
+window.addEventListener('mousemove', (e) => {
   mouse.x = e.x;
-  mouse.y = e.y;  
+  mouse.y = e.y;
 });
-
 
 // gsap.ticker is gsap's requestAnimationFrame
 gsap.ticker.add(() => {
   xSet(mouse.x);
-  ySet(mouse.y);  
+  ySet(mouse.y);
 });
-
 ```
 
 ### working demo
