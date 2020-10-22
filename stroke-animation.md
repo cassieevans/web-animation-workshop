@@ -1,5 +1,5 @@
-
 SVG line animation is a really visually pleasing technique, and, luckily, it's also quite an accessible technique to grasp!
+
 ### Resources
 
 [SVG stroke animation with CSS](https://css-tricks.com/svg-line-animation-works/)
@@ -73,24 +73,24 @@ gsap.fromTo(
 );
 
 // draw line in and then out again
- gsap.set(".squiggle", {
-   drawSVG:"0%",
- }
+gsap.set('.squiggle', {
+  drawSVG: '0%',
+});
 
- gsap.to(".squiggle", {
-   duration: 7, 
-   keyframes: [
-     {
-       drawSVG: "0% 0%"
-     },
-     {
-       drawSVG: "0% 100%"
-     },
-     {
-       drawSVG: "100% 100%"
-     }
-   ]
- })
+gsap.to('.squiggle', {
+  duration: 7,
+  keyframes: [
+    {
+      drawSVG: '0% 0%',
+    },
+    {
+      drawSVG: '0% 100%',
+    },
+    {
+      drawSVG: '100% 100%',
+    },
+  ],
+});
 ```
 
 ## Exercise
