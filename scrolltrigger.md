@@ -32,3 +32,8 @@ tl.from('.flower', {
   ease: 'power1.inOut',
 });
 ```
+
+<iframe height="400" style="width: 100%;" scrolling="no" title="Draw SVG - scrolltrigger" src="https://codepen.io/svganimationworkshop/embed/WNxxGZy?height=265&theme-id=light&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/svganimationworkshop/pen/WNxxGZy'>Draw SVG - scrolltrigger</a> by SVG-workshops
+  (<a href='https://codepen.io/svganimationworkshop'>@svganimationworkshop</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
