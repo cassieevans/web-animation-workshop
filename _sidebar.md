@@ -41,6 +41,7 @@
   - [Interactivity](interactivity.md)
   - [GSAP tips](gsap-tips.md)
   - [Stroke animation](stroke-animation.md)
+  - [Scroll animation](scrolltrigger.md)
   - [Motion Paths](motion-path.md)
   - [Morphing](morphing.md)
   - [Prefers reduced motion](prefersreducedmotion.md)
