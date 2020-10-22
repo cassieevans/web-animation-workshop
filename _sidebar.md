@@ -21,6 +21,7 @@
   - [SVG Filters](filters.md)
 
 - 🥳 Intro to animation
+
   - [Animation principles](animation-principles.md)
   - [CSS animation](CSSanimation.md)
   - [CSS speedbumps](issues.md)
@@ -31,12 +32,12 @@
   - [GSAP ease visualizer](https://greensock.com/docs/v3/Eases)
 
 - 💚 Deeper into animation
- - [Staggers](staggers.md)
- - [Timelines](timelines.md)
- - [Debugging](debugging.md)
- - [Timeline features](timeline-features.md)
+- [Staggers](staggers.md)
+- [Timelines](timelines.md)
+- [Debugging](debugging.md)
+- [Timeline features](timeline-features.md)
 
-- 💚 Wrapping up
+- 👾 Wrapping up
   - [Interactivity](interactivity.md)
   - [GSAP tips](gsap-tips.md)
   - [Stroke animation](stroke-animation.md)
