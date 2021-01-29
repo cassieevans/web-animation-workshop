@@ -20,7 +20,7 @@ Just move the mouse over the window to advance and reverse the timeline.
 Double click to pause scrubbing. Handy for right-click inspecting elements
 
 ```html
-<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/35984/ScrubGSAPTimeline.js" />
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/35984/ScrubGSAPTimeline_3_0.js" />
 ```
 
 ```js
