@@ -12,7 +12,7 @@
   - [SVG elements](svg-elements.md)
   - [Accessibility](accessibility.md)
 
-- 🎨 Diving deeper
+<!-- - 🎨 Diving deeper
 
   - [Creating & Sourcing graphics](creating-SVG-graphics.md)
   - [Optimising and structuring](optimising.md)
@@ -45,4 +45,4 @@
   - [Motion Paths](motion-path.md)
   - [Morphing](morphing.md)
   - [Prefers reduced motion](prefersreducedmotion.md)
-  - [The End](the-end.md)
+  - [The End](the-end.md) -->
