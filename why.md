@@ -27,7 +27,7 @@ But animation has genuine benefits to an online experience too.
 - SVG graphics are basically illustrations that you can manipulate with code.
 - They're easier to debug than canvas.
 - SVG falls back nicely to an illustration without JS. (yay progressive enhancement!)
-- Can be nested inside semantic HTML.
+- Can be nested inside semantic HTML or used to enhance UI.
 - Can be made accessible for screenreaders.
 - Good for infographics, logos, text & microinteractions.
 - Loads of fun.

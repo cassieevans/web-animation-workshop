@@ -5,8 +5,8 @@
 
 - 💜 Intro to SVG
 
-  - [SVG groundwork](svg-groundwork.md)
   - [Why animate on the web?](why.md)
+  - [SVG groundwork](svg-groundwork.md)
   - [The viewBox & viewport](the-viewbox.md)
   - [preserveAspectRatio](preserveaspectratio.md)
   - [SVG elements](svg-elements.md)
