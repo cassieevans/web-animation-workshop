@@ -12,7 +12,7 @@
   - [SVG elements](svg-elements.md)
   - [Accessibility](accessibility.md)
 
-<!-- - 🎨 Diving deeper
+- 🎨 Diving deeper
 
   - [Creating & Sourcing graphics](creating-SVG-graphics.md)
   - [Optimising and structuring](optimising.md)
@@ -20,7 +20,7 @@
   - [Masking and Clipping](masking-clipping.md)
   - [SVG Filters](filters.md)
 
-- 🥳 Intro to animation
+<!-- - 🥳 Intro to animation
 
   - [Animation principles](animation-principles.md)
   - [CSS animation](CSSanimation.md)
