@@ -22,16 +22,6 @@ There are four key styles that a browser can animate cheaply:
 }
 ```
 
-### **However...** <!-- {docsify-ignore} -->
-
-Currently, Chrome won't separate SVG graphics into different GPU layers. So no hardware acceleration. 😢
-
-This means that SVG is inherently less performant than canvas.
-
-## Upvote the issue
-
-[Upvote me!](https://bugs.chromium.org/p/chromium/issues/detail?id=666244)
-
 ## Canvas vs SVG <!-- {docsify-ignore} -->
 
 |        | PROS                                                                                                                                                                          | CONS                                                                                       |
