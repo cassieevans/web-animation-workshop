@@ -21,10 +21,10 @@
   - [Masking and Clipping](masking-clipping.md)
   - [SVG Filters](filters.md)
 
-<!-- - 🥳 Intro to animation
+- 🥳 Intro to animation
 
   - [Animation principles](animation-principles.md)
-  - [CSS animation](CSSanimation.md)
+  - [Animating with CSS](CSSanimation.md)
   - [CSS speedbumps](issues.md)
   - [Animation libraries](animation-libraries.md)
   - [Greensock](gsap.md)
@@ -32,7 +32,7 @@
   - [Easing](easing.md)
   - [GSAP ease visualizer](https://greensock.com/docs/v3/Eases)
 
-- 💚 Deeper into animation
+<!--- 💚 Deeper into animation
 - [Staggers](staggers.md)
 - [Timelines](timelines.md)
 - [Debugging](debugging.md)

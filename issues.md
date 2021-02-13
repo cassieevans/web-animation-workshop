@@ -17,7 +17,7 @@ The rectangle in the pen below is rotating around the origin `200px 50px`
 The pink line is showing the origin being measured relative to the element itself.
 The purple line is showing the origin being measured relative to the SVG viewBox.
 
-We can solve this inconsistency in most browsers with [transform-box](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-box)
+We can solve this inconsistency in all browsers but IE with [transform-box](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-box)
 
 ## transform-box
 
@@ -39,7 +39,6 @@ The nearest SVG viewport is used as the reference box.
 
 > I recommend using CSS animation as progressive enhancement and not animating in IE.
 
-
 ### Progressive enhancement
 
 ```css
@@ -50,12 +49,12 @@ The nearest SVG viewport is used as the reference box.
 
 ## Chaining
 
-There's no way to chain animations in CSS. 
-We can fake chaining with delays, but this is only a comfortable solution for short sequences of around four animations or less.
+There's no way to chain animations in CSS.
+We can fake chaining with delays, but this is only a comfortable solution for short sequences of around four animations or less. (Depending on your patience.)
 
 ```css
 :root {
-  first-duration: 3s;
+  --first-duration: 3s;
 }
 
 .element {

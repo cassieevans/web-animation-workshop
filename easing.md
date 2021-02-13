@@ -1,18 +1,19 @@
 Easing is one of the most important things in motion design. It's the best way to breathe life and personality into an animation.
 
-
-## Easing with CSS 
+## Easing with CSS
 
 ```css
 .element {
   /* eases available out of the box */
   animation-timing-function: linear/ease/ease-in/ease-out/ease-in-out;
+  /* or for transitions*/
+  transition-timing-function:
 
   /* The default, - you get this without defining anything */
-  transition-timing-function: ease;
+  animation-timing-function: ease;
 
   /* Also the same as */
-  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 ```
 
@@ -40,7 +41,6 @@ Here are some GSAP eases with their corresponding CSS syntax
 | ease: "power1.in"    | animation-timing-function: ease-in     |
 | ease: "power1.Out"   | animation-timing-function: ease-out    |
 
-
 ## Bonus eases <!-- {docsify-ignore} -->
 
 !> These eases aren't included in the core and need to be loaded in seperately with easepack or customease.
@@ -59,13 +59,14 @@ I've included these extra plugins in your pen.
 gsap.registerPlugin(EasePack);
 
 // example of a rough ease with a customised configuration
-let roughEase = "rough({strength: 3, points: 50, template: strong.inOut, taper: both, randomize: false})"
+let roughEase =
+  'rough({strength: 3, points: 50, template: strong.inOut, taper: both, randomize: false})';
 
-gsap.to('#ufo', { 
-  duration: 2, 
+gsap.to('#ufo', {
+  duration: 2,
   y: -100,
   ease: roughEase,
-})
+});
 ```
 
 ### customEase
@@ -76,14 +77,16 @@ gsap.to('#ufo', {
 gsap.registerPlugin(CustomEase);
 
 // example of a custom 'hopping' ease
-CustomEase.create("hop", "M0,0.005 C0,0.005 0.056,0.445 0.175,0.445 0.294,0.445 0.332,0 0.332,0 0.332,0 0.414,1 0.671,1 0.991,1 1,0 1,0");
+CustomEase.create(
+  'hop',
+  'M0,0.005 C0,0.005 0.056,0.445 0.175,0.445 0.294,0.445 0.332,0 0.332,0 0.332,0 0.414,1 0.671,1 0.991,1 1,0 1,0'
+);
 
-gsap.to('#ufo', { 
-  duration: 2, 
+gsap.to('#ufo', {
+  duration: 2,
   y: -100,
   ease: 'hop',
-})
-
+});
 ```
 
 ## Exercise

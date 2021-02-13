@@ -1,45 +1,11 @@
-### When to use CSS to animate SVG?
+### When to use CSS?
 
 - Your animation has 3 or less steps.
 - You don't want the additional weight of a JS library.
 - You're animating transforms & opacity.
 - You're doing a simple stroke animation.
 - You don't mind having no animation in IE.
-
-## Transitions
-
-Transitions are great if you have one state change that you want to alter on a certain interaction - like hover.
-
-```css
-.element {
-  transition-property: transform|opacity;
-  transition-duration: 1s|1000ms;
-  transition-timing-function: linear|ease|ease-in|ease-out|ease-in-out|cubic-bezier;
-  transition-delay: 1s|1000ms;
-
-  /* or shorthand */
-  transition: transform 0.5s ease-out 0.1s;
-}
-
-.svg:hover .element {
-  transform: transformY(300px);
-}
-```
-
-## Transition Exercise
-
-Add some transitions to the 'buy stuff' button.
-
-Keep in mind the 'feel' you want to achieve when picking out eases.
-
-Jump over to the [easing section](/easing?id=easing-with-css) if you want a deeper dive.
-
-<iframe height="400" style="width: 100%;" scrolling="no" title="wallet - icon animation" src="https://codepen.io/svganimationworkshop/embed/xxRgYyB?height=265&theme-id=light&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/svganimationworkshop/pen/xxRgYyB'>wallet - icon animation</a> by SVG-workshops
-  (<a href='https://codepen.io/svganimationworkshop'>@svganimationworkshop</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-## Animation
+- You're having fun and you love CSS.
 
 ### Keyframes
 
@@ -61,7 +27,7 @@ you can use percentages
 }
 ```
 
-Or `to` and `from` which is a little more like a transition really!
+Or `to` and `from`
 
 ```css
 @keyframes spin-and-grow {
@@ -69,8 +35,7 @@ Or `to` and `from` which is a little more like a transition really!
     transform: rotate(0);
   }
   from {
-    /* you can stack transforms like so */
-    transform: scale(2) rotate(360deg);
+    transform: scale(2);
   }
 }
 ```
@@ -128,15 +93,8 @@ translations can be set as pixel values which will be read as SVG units, or perc
   (<a href='https://codepen.io/svganimationworkshop'>@svganimationworkshop</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-## Animation Exercise
+## Exercise
 
-Using CSS, experiment with a simple animation - 3 steps or less.
+Using CSS, experiment with adding an animation to your potato critter.
 
-If you have your own SVG prepared - go ahead and use that!
-
-If not, you can use this little robot dude or the potato critter from day 1.
-
-<iframe height="400" style="width: 100%;" scrolling="no" title="lil robot dude - starter" src="https://codepen.io/svganimationworkshop/embed/XWNpYBP?height=265&theme-id=light&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/svganimationworkshop/pen/XWNpYBP'>lil robot dude - starter</a> by SVG-workshops
-  (<a href='https://codepen.io/svganimationworkshop'>@svganimationworkshop</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+The original [is here if you need it.](https://codepen.io/svganimationworkshop/pen/WNwBqGG)
