@@ -1,3 +1,10 @@
+## Resources
+
+[How to scale SVG - Amelia Bellamy-Royds](https://css-tricks.com/scale-svg/)
+[Understanding SVG Coordinate Systems](https://www.sarasoueidan.com/blog/svg-coordinate-systems/)
+
+## Explanation and demos
+
 If the viewport and the viewBox don't have the same aspect ratio we need to specify how the the viewBox is positioned inside the viewport. We can do that with preserveAspectRatio
 
 By default, even with the attribute omitted, the viewBox will scale to fit within the viewport, and be centered.

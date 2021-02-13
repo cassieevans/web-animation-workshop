@@ -45,6 +45,16 @@
 </svg>
 ```
 
+applied with CSS
+
+```css
+.element {
+  clip-path: url('#myClip');
+  /* or */
+  mask: url('#myMask');
+}
+```
+
 [Masking vs. Clipping: When to Use Each](https://css-tricks.com/masking-vs-clipping-use/)
 
 ### Demo pen <!-- {docsify-ignore} -->

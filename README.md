@@ -22,13 +22,15 @@ If you know the answer to a question you see on there, feel free to answer and h
 
 **A codepen account** We’ll be using codepen for the exercises. If you don’t have one already, you can make one for free [here](https://codepen.io/)
 
+**Your smashing** [google doc](https://docs.google.com/document/d/11vksvFMSj6GGG1oLI5sgJOROdqSumbdc1gI_OXMOLHY/edit#)
+
 ## Optional <!-- {docsify-ignore} -->
 
 **Graphics editing software.** I use Illustrator, but I know the pricing on adobe software is a _bit much_ for some folks. Affinity designer is a brilliant alternative. - You can get a free trial [here](https://affinity.serif.com/en-gb/designer/#buy)
 
 <!-- ## Follow along {docsify-ignore} -->
 
-<!-- Animation looks pretty crummy over Zoom, so if you'd like you can follow along with my slides [here](https://slides.com/cassiecodes/deck-6ca315/live?token=BaVNfTdi) -->
+Animation looks pretty crummy over Zoom, so if you'd like you can follow along with my slides [here](https://slides.com/cassiecodes/deck-6ca315/live?token=BaVNfTdi)
 
 ## Sharing <!-- {docsify-ignore} -->
 
@@ -36,6 +38,18 @@ I **love** to see what people have been making, so make sure to tag your codepen
 
 If you share your codepens on twitter make sure to @ me [@cassiecodes](https://twitter.com/cassiecodes)
 
-<!-- **Slack** If you have questions, get stuck during an exercise or want to share what you're working on, [this is the place!](https://join.slack.com/t/svg-animation/shared_invite/enQtOTU2MjM2MTUyNDcwLThkZDFiZTBhNzE4Mzc5YjAzODU0MzRmMDRjMzFiNGVjNmUxYTI1Njk5NTk3N2FjZWE3ZjQ4ZDA3MjdmMDU3OWQ) I'll be keeping this slack channel running after the workshop too. So _hopefully_ we'll get a little creative community going.
+## Past video links
 
- -->
+[Day 1](https://smashingmagazine.zoom.us/rec/play/gBByyvZAudCdF3XXLYCD3V0bC6W7XEAkbqD2B78NrVAv_jWRLmf2hWR3_5YiXSs-2TtJR8G3v3Q6KIiY.etmZGYq19b8b95C-?continueMode=true)
+
+[Day 2](https://smashingmagazine.zoom.us/rec/play/RBPNuZOnMxUzob95CWRC2zD9BQIZAhGrnObqkB4Pzqt1aqTz7a3kHe4fXQ7sXX0GxBCvDJUBKQCYnN7r.nPCWN3lM3IembeZT?continueMode=true&_x_zm_rtaid=Ch7HurVIT9S3zLqRwZiuhw.1613229002113.be2abee9568eccdc8c3b71a5f10b4a66&_x_zm_rhtaid=156)
+
+## Codepen collections
+
+[Potato critters](https://codepen.io/collection/XpGwOd)
+
+[Text Masking](https://codepen.io/collection/XwbVqw)
+
+<!-- ## My SVG slack
+
+[Join us! 👋 ](https://join.slack.com/t/svg-animation/shared_invite/zt-ld8zodr8-logjxuHIrrssl7EbB_XJHg) -->

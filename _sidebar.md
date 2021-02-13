@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-- [Help!](https://docs.google.com/document/d/1kBgyniprjtTmfdLnGVMVHLVV2gvCXQ-zjf6wpqimr6I/edit)
+- [Help!](https://docs.google.com/document/d/1jCflHrhHfjewGTbW7gqv-KjCgV9yRLEujSpjpInAAAs/edit)
 - [Welcome!](/)
 
 - 💜 Intro to SVG
@@ -15,6 +15,7 @@
 - 🎨 Diving deeper
 
   - [Creating & Sourcing graphics](creating-SVG-graphics.md)
+  - [Exporting your SVG's](exporting.md)
   - [Optimising and structuring](optimising.md)
   - [Performance](performance.md)
   - [Masking and Clipping](masking-clipping.md)

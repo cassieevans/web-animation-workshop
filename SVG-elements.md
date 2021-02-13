@@ -2,11 +2,15 @@
 
 [MDN Element reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Element)
 
+[Path commands reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d#path_commands)
+
 [SVG Path syntax - CSS tricks](https://css-tricks.com/svg-path-syntax-illustrated-guide/)
 
 [Anthony Dugois​ path editor](https://codepen.io/anthonydugois/full/mewdyZ)
 
 [JXNBLK PATHS](https://jxnblk.github.io/paths/)
+
+[SVG arc demo](https://codepen.io/lingtalfi/pen/yaLWJG)
 
 ## Why? <!-- {docsify-ignore} -->
 

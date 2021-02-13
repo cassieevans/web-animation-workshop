@@ -14,7 +14,7 @@ This 'chaining' allows for infinite types of effects.
 
 [The Gooey effect](https://css-tricks.com/gooey-effect/)
 
-[Squigglevision](https://css-tricks.com/squigglevision-in-css-and-svg/)
+[Squigglevision](https://tympanus.net/codrops/2016/03/21/animated-animals-css-svg/)
 
 ## Snippets
 
@@ -43,11 +43,42 @@ Filter applied with CSS
 }
 ```
 
-## Demo pen
+Squigglevision filter
+
+```html
+<svg>
+  <filter id="sketchy">
+    <feTurbulence
+      id="turbulence"
+      baseFrequency="0.05"
+      numOctaves="3"
+      result="noise"
+      seed="0"
+    />
+    <feDisplacementMap
+      id="displacement"
+      in="SourceGraphic"
+      in2="noise"
+      scale="1"
+    />
+  </filter>
+
+  <g filter="url(#sketchy)">
+    <!-- stuff with a filter applied to it -->
+  </g>
+</svg>
+```
+
+## Demo pens
 
 <iframe height="500" style="width: 100%;" scrolling="no" title="Displacement" src="https://codepen.io/svganimationworkshop/embed/jOqgewd?height=265&theme-id=light&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/svganimationworkshop/pen/jOqgewd'>Displacement</a> by SVG-workshops
   (<a href='https://codepen.io/svganimationworkshop'>@svganimationworkshop</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+<iframe height="500" style="width: 100%;" scrolling="no" title="Flowers" src="https://codepen.io/cassie-codes/embed/eYmXozM?height=265&theme-id=light&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/cassie-codes/pen/eYmXozM'>Flowers</a> by Cassie Evans
+  (<a href='https://codepen.io/cassie-codes'>@cassie-codes</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 ## Exercise

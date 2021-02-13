@@ -34,6 +34,13 @@
 - The viewport can be sized with width and height parameters on the SVG itself, or with CSS.
 - If you only specify a height _or_ width on the SVG, the SVG's viewport with take on the aspect ratio specified in the viewBox
 
+## Demo - code along with me
+
+<iframe height="500" style="width: 100%;" scrolling="no" title="ViewBox demo" src="https://codepen.io/svganimationworkshop/embed/PoNvMPm?height=265&theme-id=light&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/svganimationworkshop/pen/PoNvMPm'>ViewBox demo</a> by SVG-workshops
+  (<a href='https://codepen.io/svganimationworkshop'>@svganimationworkshop</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
 ## Exercise
 
 Oh no! We're on a mission and we've lost an astronaut in deep space.
