@@ -6,7 +6,7 @@
 
 [SVG Path syntax - CSS tricks](https://css-tricks.com/svg-path-syntax-illustrated-guide/)
 
-[Anthony Dugois​ path editor](https://codepen.io/anthonydugois/full/mewdyZ)
+[Path visualiser](https://svg-path-visualizer.netlify.app)
 
 [JXNBLK PATHS](https://jxnblk.github.io/paths/)
 
