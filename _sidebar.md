@@ -21,7 +21,7 @@
   - [Masking and Clipping](masking-clipping.md)
   - [SVG Filters](filters.md)
 
-- 🥳 Intro to animation
+- 🎈 Intro to animation
 
   - [Animation principles](animation-principles.md)
   - [Animating with CSS](CSSanimation.md)
