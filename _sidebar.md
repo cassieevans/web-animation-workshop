@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-- [Help!](https://docs.google.com/document/d/1jCflHrhHfjewGTbW7gqv-KjCgV9yRLEujSpjpInAAAs/edit)
+- [Help!](https://docs.google.com/document/d/1oGfpzg7NueahSxPK_AbhH3buqo6v1nnyXxaXcN__Ppo/edit)
 - [Welcome!](/)
 
 - 💜 Intro to SVG
@@ -32,13 +32,15 @@
   - [Easing](easing.md)
   - [GSAP ease visualizer](https://greensock.com/docs/v3/Eases)
 
-<!--- 💚 Deeper into animation
-- [Staggers](staggers.md)
-- [Timelines](timelines.md)
-- [Debugging](debugging.md)
-- [Timeline features](timeline-features.md)
+- 💚 Deeper into animation
 
-- 👾 Wrapping up
+  - [GSAP tips](gsap-tips.md)
+  - [Staggers](staggers.md)
+  - [Timelines](timelines.md)
+  - [Debugging](debugging.md)
+  - [Timeline features](timeline-features.md)
+
+<!-- - 👾 Wrapping up
   - [Interactivity](interactivity.md)
   - [GSAP tips](gsap-tips.md)
   - [Stroke animation](stroke-animation.md)
@@ -46,4 +48,4 @@
   - [Motion Paths](motion-path.md)
   - [Morphing](morphing.md)
   - [Prefers reduced motion](prefersreducedmotion.md)
-  - [The End](the-end.md) -->
+  - [The End](the-end.md)  -->

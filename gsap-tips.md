@@ -1,4 +1,4 @@
-!> When using from() tweens you can end up with annoying flashes of your SVG as it is in the HTML before your JS kicks in and moves it to it's initial animation state.
+!> When using from() tweens you can end up with annoying flashes of your SVG as the HTML loads before your JS kicks in.
 
 ## FOUC
 
@@ -56,6 +56,7 @@ gsap.to('.ufo', {
 });
 ```
 
+<!--
 ## registerEffect
 
 [View registerEffect() GSAP docs](<https://greensock.com/docs/v3/GSAP/gsap.registerEffect()>)
@@ -113,4 +114,4 @@ gsap.ticker.add(() => {
 <iframe height="500" style="width: 100%;" scrolling="no" title="Spaceship - quickSetter" src="https://codepen.io/svganimationworkshop/embed/oNLLLzJ?height=265&theme-id=light&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/svganimationworkshop/pen/oNLLLzJ'>Spaceship - quickSetter</a> by SVG-workshops
   (<a href='https://codepen.io/svganimationworkshop'>@svganimationworkshop</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+</iframe> -->
