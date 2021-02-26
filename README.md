@@ -30,8 +30,6 @@ If you know the answer to a question you see on there, feel free to answer and h
 
 <!-- ## Follow along {docsify-ignore} -->
 
-Animation looks pretty crummy over Zoom, so if you'd like you can follow along with my slides [here](https://slides.com/cassiecodes/deck-6ca315/live?token=BaVNfTdi)
-
 ## Sharing <!-- {docsify-ignore} -->
 
 I **love** to see what people have been making, so make sure to tag your codepens (settings > tags) with **_svgworkshops._**
@@ -44,12 +42,16 @@ If you share your codepens on twitter make sure to @ me [@cassiecodes](https://t
 
 [Day 2](https://smashingmagazine.zoom.us/rec/play/RBPNuZOnMxUzob95CWRC2zD9BQIZAhGrnObqkB4Pzqt1aqTz7a3kHe4fXQ7sXX0GxBCvDJUBKQCYnN7r.nPCWN3lM3IembeZT?continueMode=true&_x_zm_rtaid=Ch7HurVIT9S3zLqRwZiuhw.1613229002113.be2abee9568eccdc8c3b71a5f10b4a66&_x_zm_rhtaid=156)
 
+[Day 3](https://smashingmagazine.zoom.us/rec/play/dJ5EorD-bzNLL9Ou5Iior8w8igJ7MIJCe7tJGxNKQ-eyY0MmxT0SEqKlLn6uBOLEGv0ywO77G3PtAeH1.Lp3uNOGoMJHJ4H1R?continueMode=true&_x_zm_rtaid=mTZ1g0G9T8u56DLDqh-RWA.1614354484652.c1c6bf2df40bd4525213b43bc09b25d0&_x_zm_rhtaid=505)
+
+[Day 4](https://smashingmagazine.zoom.us/rec/play/TffpSYpWyfXRssIDWv2IDYctDVOLpWWrsicaATt9bCdRHegVXiecyrTiSo2u0_4caB-lNLyITW9k71hC.9oItyZ21YoPNJSLW?continueMode=true&_x_zm_rtaid=mTZ1g0G9T8u56DLDqh-RWA.1614354484652.c1c6bf2df40bd4525213b43bc09b25d0&_x_zm_rhtaid=505)
+
 ## Codepen collections
 
 [Potato critters](https://codepen.io/collection/XpGwOd)
 
 [Text Masking](https://codepen.io/collection/XwbVqw)
 
-<!-- ## My SVG slack
+## My SVG slack
 
-[Join us! 👋 ](https://join.slack.com/t/svg-animation/shared_invite/zt-ld8zodr8-logjxuHIrrssl7EbB_XJHg) -->
+[Join us! 👋 ](https://join.slack.com/t/svg-animation/shared_invite/zt-ld8zodr8-logjxuHIrrssl7EbB_XJHg)

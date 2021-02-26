@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-- [Help!](https://docs.google.com/document/d/1oGfpzg7NueahSxPK_AbhH3buqo6v1nnyXxaXcN__Ppo/edit)
+- [Help!](https://docs.google.com/document/d/1dN3DToEPbpb1J8t5tyrrUcAyC8QvDFn0Y3BlcG3--_Q/edit)
 - [Welcome!](/)
 
 - 💜 Intro to SVG
@@ -40,12 +40,12 @@
   - [Debugging](debugging.md)
   - [Timeline features](timeline-features.md)
 
-<!-- - 👾 Wrapping up
+- 👾 Wrapping up
+  - [Lottie](lottie.md)
   - [Interactivity](interactivity.md)
-  - [GSAP tips](gsap-tips.md)
   - [Stroke animation](stroke-animation.md)
   - [Scroll animation](scrolltrigger.md)
   - [Motion Paths](motion-path.md)
   - [Morphing](morphing.md)
   - [Prefers reduced motion](prefersreducedmotion.md)
-  - [The End](the-end.md)  -->
+  - [The End](the-end.md)

@@ -1,8 +1,8 @@
 Thanks for coming along on this SVG journey with me!
 
-I hope you had fun! If you have any questions, pop me a message anytime.
+I hope you had fun! If you have any questions, [pop me a message anytime](mailto:hi@cassie.codes).
 
-I have a little SVG animation slack channel [here](https://join.slack.com/t/svg-animation/shared_invite/zt-h1mm091f-egeSHifI9_N_LcqftcsUpg). Join us, share what you're working on and we can help each other when we get stuck! (the invite will expire in a month)
+I have a little SVG animation slack channel [here](https://join.slack.com/t/svg-animation/shared_invite/zt-ld8zodr8-logjxuHIrrssl7EbB_XJHg). Join us, share what you're working on and we can help each other when we get stuck!
 
 I also have a monthly [SVG newsletter](https://viewbox.club/) full of demos and tips and tricks.
 

@@ -95,7 +95,7 @@ gsap.to('.squiggle', {
 
 ## Exercise
 
-Give stroke animation & staggering a go.
+Give stroke animation a go.
 
 Feel free to use CSS or GSAP.
 
