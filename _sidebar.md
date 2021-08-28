@@ -1,7 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-- [Help!](https://docs.google.com/document/d/1dN3DToEPbpb1J8t5tyrrUcAyC8QvDFn0Y3BlcG3--_Q/edit)
-- [Welcome!](/)
+- [Links](/)
 
 - 💜 Intro to SVG
 
@@ -48,4 +47,3 @@
   - [Motion Paths](motion-path.md)
   - [Morphing](morphing.md)
   - [Prefers reduced motion](prefersreducedmotion.md)
-  - [The End](the-end.md)
