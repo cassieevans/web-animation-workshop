@@ -41,9 +41,7 @@ Here's some common properties & animation commands along with their correspondin
 | scaleX: 2                  | transform: scaleX(2)                |
 | scaleY: 2                  | transform: scaleY(2)                |
 |                            |                                     |
-| rotation: 90               | transform: rotate(90deg)            |
-| rotationX: 90              | transform: rotateX(90deg)           |
-| rotationY: 90              | transform: rotateY(90deg)           |
+| rotate: 90                 | transform: rotate(90deg)            |
 |                            |                                     |
 | transformOrigin: '50% 50%' | transform-origin: 50% 50% - fill-box|
 | svgOrigin: '100 200'       | transform-origin: 100 200 - view-box|

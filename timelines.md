@@ -6,6 +6,13 @@ When you place tweens in a timeline, tweens have relationships and awareness of 
 
 By default tweens will follow one after another. But we can overlap or delay tweens by using the position parameter.
 
+## Position Parameter
+
+<iframe height="1000" style="width: 100%;" scrolling="no" title="Position Parameter explainer - constructor" src="https://codepen.io/GreenSock/embed/PopXddg?default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/GreenSock/pen/PopXddg">
+  Position Parameter explainer - constructor</a> by GreenSock (<a href="https://codepen.io/GreenSock">@GreenSock</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ### fork this and code along
 

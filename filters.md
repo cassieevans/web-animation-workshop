@@ -12,6 +12,8 @@ This 'chaining' allows for infinite types of effects.
 
 [SVG filters 101](https://tympanus.net/codrops/2019/01/15/svg-filters-101/)
 
+[SVG filters GUI](https://svgfilters.com/)
+
 [The Gooey effect](https://css-tricks.com/gooey-effect/)
 
 [Squigglevision](https://tympanus.net/codrops/2016/03/21/animated-animals-css-svg/)

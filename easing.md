@@ -29,7 +29,7 @@ You can also tweak easing right in chrome dev tools!
 
 [GSAP ease visualizer](https://greensock.com/docs/v3/Eases)
 
-Greensock uses SVG path syntax for easing curves so we get a lot more flexibility.
+GreenSock uses SVG path syntax for easing curves so we get a lot more flexibility.
 We can create more complex effects like bouncing, elastic eases, wiggles, or jerky eases.
 
 Here are some GSAP eases with their corresponding CSS syntax

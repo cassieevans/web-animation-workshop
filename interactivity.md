@@ -7,19 +7,36 @@ Interactivity is largely about listening for some sort of interaction and then u
 ## Event Listeners
 
 ```js
-// tl.timeScale()
-// tl.reverse()
-// tl.pause()
-// tl.resume()
-// tl.reverse
-// tl.play()
-// tl.seek()
+// useful methods
+tl.timeScale()
+tl.reverse()
+tl.pause()
+tl.resume()
+tl.reverse
+tl.play()
+tl.seek()
 
 let container = document.querySelector('#container');
 
 // listen for mouse events on the container and adjust timeline
 container.addEventListener('mouseenter', () => tl.timeScale(2).reverse());
 container.addEventListener('mouseleave', () => tl.play());
+```
+
+## Reversing a timeline
+
+```js
+
+//flips the orientation (if it's forward, it will go backward, if it is backward, it will go forward):
+if (tl.reversed()) {
+  tl.play();
+} else {
+  tl.reverse();
+}
+
+//flips the orientation using the reversed() method instead (shorter version of the code above):
+tl.reversed( !tl.reversed() );
+
 ```
 
 ## Code along with me!

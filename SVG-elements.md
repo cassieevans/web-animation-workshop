@@ -1,14 +1,28 @@
 ## Resources
 
+The official places...
+
 [MDN Element reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Element)
 
 [Path commands reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d#path_commands)
 
+Absolute to Relative tool...
+
+Relative paths are nice and easy to author as you can change the x,y coords after the 'M' command in order to move the whole shape around.
+
+[Handy converter here](https://lea.verou.me/2019/05/utility-convert-svg-path-to-all-relative-or-all-absolute-commands/)
+
+Some more friendly guides...
+
+[Pocket guide to drawing](https://svgpocketguide.com/book/)
+
 [SVG Path syntax - CSS tricks](https://css-tricks.com/svg-path-syntax-illustrated-guide/)
+
+Visualisers...
 
 [Path visualiser](https://svg-path-visualizer.netlify.app)
 
-[JXNBLK PATHS](https://jxnblk.github.io/paths/)
+[Online path editor](https://yqnn.github.io/svg-path-editor/)
 
 [SVG arc demo](https://codepen.io/lingtalfi/pen/yaLWJG)
 
@@ -141,9 +155,9 @@ Paths - Letters are commands. Numbers are co-ordinates.
            Q 10,60 10,30 z"></path>
 </svg>
 
-## Relative - Absolute path converter
+<!-- ## Relative - Absolute path converter
 
-[Open codepen](https://codepen.io/leaverou/pen/RmwzKv?editors=1010)
+[Open codepen](https://codepen.io/leaverou/pen/RmwzKv?editors=1010) -->
 
 ## Exercise
 

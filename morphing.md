@@ -3,6 +3,8 @@
 
 [Morph SVG plugin](https://greensock.com/docs/v3/Plugins/MorphSVGPlugin)
 
+[Illustrator setup - getting the correct points.](https://www.motiontricks.com/organic-morphing-getting-needed-points-from-adobe-illustrator/)
+
 MorphSVGPlugin morphs SVG paths by animating the data inside the d attribute
 
 You hand greensock the start shape and the destination shape and it does all the complicated calculations for you.

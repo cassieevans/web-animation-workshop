@@ -1,7 +1,7 @@
 
 ## Resources
 
-The Greensock docs and forums are brilliant.
+The GreenSock docs and forums are brilliant.
 
 [Getting started](https://greensock.com/get-started/)
 
@@ -9,9 +9,9 @@ The Greensock docs and forums are brilliant.
 
 [Forums](https://greensock.com/forums/) — Like stack overflow, but the people aren't horrid.
 
-## Why Greensock? <!-- {docsify-ignore} -->
+## Why GreenSock? <!-- {docsify-ignore} -->
 
-> There are a lot of JS animation libraries to choose from. Greensock is the only one that handles SVG transforms consistently cross browser.
+> There are a lot of JS animation libraries to choose from. GreenSock is the only one that handles SVG transforms consistently cross browser.
 
 [GSAP vs Anime - transform origin test](https://codepen.io/GreenSock/details/38e8d70b289883b08bd391b4e15be070)
 

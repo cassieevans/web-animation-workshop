@@ -15,6 +15,8 @@
 
 ## Resources and snippets
 
+[Calligraphy text masking tutorial](https://www.motiontricks.com/svg-calligraphy-handwriting-animation/)
+
 ```html
 <svg>
   <defs>

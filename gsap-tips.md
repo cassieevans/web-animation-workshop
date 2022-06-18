@@ -26,7 +26,7 @@ gsap.from('.ufo', { duration: 1, x: -700 });
 
 ## transformOrigin & SVGOrigin
 
-Greensock will use the elements bounding box as reference by default. But you can also use svgOrigin and specific coordinate values.
+GreenSock will use the elements bounding box as reference by default. But you can also use svgOrigin and specific coordinate values.
 
 ```js
 gsap.set('ufo', {

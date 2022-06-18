@@ -1,6 +1,7 @@
 ## Resources
 
 [How to scale SVG - Amelia Bellamy-Royds](https://css-tricks.com/scale-svg/)
+
 [Understanding SVG Coordinate Systems](https://www.sarasoueidan.com/blog/svg-coordinate-systems/)
 
 ## Explanation and demos

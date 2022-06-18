@@ -9,7 +9,6 @@ You don't have to be great at drawing to get started with SVG animation. Practic
 ### Alternatives to drawing
 
 - Team up with a designer or illustrator you know.
-- Found something you like online? Contact the artist and ask if you can animate it for them.
 - Animate simple shapes.
 - Download Vector art [online](https://www.freepik.com/).
 
