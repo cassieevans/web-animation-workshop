@@ -1,10 +1,10 @@
 ### When to use CSS to animate SVG?
 
-- Your animation has 3 or less steps.
+- Simple hover transitions.
+- Your animation has 3 or less steps..
 - You don't want the additional weight of a JS library.
 - You're animating transforms & opacity.
 - You're doing a simple stroke animation.
-- You don't mind having no animation in IE.
 
 ## Transitions
 
