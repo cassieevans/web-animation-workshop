@@ -11,7 +11,7 @@
   - [SVG elements](svg-elements.md)
   - [Accessibility](accessibility.md)
 
-- 🎨 Diving deeper
+<!-- - 🎨 Diving deeper
 
   - [Creating & Sourcing graphics](creating-SVG-graphics.md)
   - [Exporting your SVG's](exporting.md)
@@ -29,21 +29,21 @@
   - [Greensock](gsap.md)
   - [Tweens](tweens.md)
   - [Easing](easing.md)
-  - [GSAP ease visualizer](https://greensock.com/docs/v3/Eases)
+  - [GSAP ease visualizer](https://greensock.com/docs/v3/Eases) -->
 
-- 💚 Deeper into animation
+<!-- - 💚 Deeper into animation
 
   - [GSAP tips](gsap-tips.md)
   - [Staggers](staggers.md)
   - [Timelines](timelines.md)
   - [Debugging](debugging.md)
-  - [Timeline features](timeline-features.md)
+  - [Timeline features](timeline-features.md) -->
 
-- 👾 Wrapping up
+<!-- - 👾 Wrapping up
   - [Lottie](lottie.md)
   - [Interactivity](interactivity.md)
   - [Stroke animation](stroke-animation.md)
   - [Scroll animation](scrolltrigger.md)
   - [Motion Paths](motion-path.md)
   - [Morphing](morphing.md)
-  - [Prefers reduced motion](prefersreducedmotion.md)
+  - [Prefers reduced motion](prefersreducedmotion.md) -->
